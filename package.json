@@ -1,0 +1,32 @@
+{
+  "name": "pixlprfct-icons",
+  "version": "0.1.0",
+  "description": "PixlPrfct icon font in Light, Regular and Bold weights",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "fonts",
+    "css",
+    "icons.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./css/icons.css": "./css/icons.css",
+    "./icons.json": "./icons.json",
+    "./fonts/*": "./fonts/*"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "build:site": "python3 scripts/site.py",
+    "test": "python3 scripts/test.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninefingerwoodshop-ops/pixlprfct_icons.git"
+  },
+  "homepage": "https://ninefingerwoodshop-ops.github.io/pixlprfct_icons/"
+}

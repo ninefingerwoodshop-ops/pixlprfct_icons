@@ -1,0 +1,18 @@
+# Dependencies and local build environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Generated website and package archives
+_site/
+*.tgz
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+*.log
+# Font files and CSS are intentional release artifacts; keep them tracked.
