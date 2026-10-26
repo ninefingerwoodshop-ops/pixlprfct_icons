@@ -1,5 +1,5 @@
 """Build filled glyph outlines from the canonical SVG strokes, not faux-bold fonts."""
-import json
+import json, hashlib
 from pathlib import Path
 import skia
 from fontTools.fontBuilder import FontBuilder
@@ -76,7 +76,8 @@ for style, weight, stroke in [('Light', 300, 1), ('Regular', 400, 1.5), ('Bold',
     check=TTFont(fonts / (filename+'.woff2'))
     assert len(check.getBestCmap()) == len(icons)
     assert all(check['glyf'][name].numberOfContours > 0 for name in icons)
-    css.append(f'@font-face{{font-family:"PixlPrfct Icons";src:url("../fonts/{filename}.woff2") format("woff2");font-weight:{weight};font-style:normal;font-display:block}}')
+    digest=hashlib.sha256((fonts / (filename+'.woff2')).read_bytes()).hexdigest()[:12]
+    css.append(f'@font-face{{font-family:"PixlPrfct Icons";src:url("../fonts/{filename}.woff2?v={digest}") format("woff2");font-weight:{weight};font-style:normal;font-display:block}}')
 css += ['.pxi{display:inline-block;font-family:"PixlPrfct Icons"!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;font-synthesis:none;speak:none;-webkit-font-smoothing:antialiased}', '.pxi-light{font-weight:300}.pxi-regular{font-weight:400}.pxi-bold{font-weight:700}']
 for name, data in icons.items(): css.append(f'.pxi-{name}::before{{content:"\\{data["codepoint"]}"}}')
 (root / 'css/icons.css').write_text('\n'.join(css)+'\n')
