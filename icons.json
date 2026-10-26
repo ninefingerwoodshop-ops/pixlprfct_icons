@@ -903,5 +903,477 @@
   "barcode": {
     "codepoint": "e9e1",
     "path": "M2 4v16M5 4v16M9 4v16M11 4v16M16 4v16M19 4v16M22 4v16"
+  },
+  "check": {
+    "codepoint": "e9e2",
+    "path": "M4 12l5 5L20 6"
+  },
+  "chevron-left": {
+    "codepoint": "e9e3",
+    "path": "M15 5l-7 7 7 7"
+  },
+  "chevron-right": {
+    "codepoint": "e9e4",
+    "path": "M9 5l7 7-7 7"
+  },
+  "chevron-up": {
+    "codepoint": "e9e5",
+    "path": "M5 15l7-7 7 7"
+  },
+  "chevron-down": {
+    "codepoint": "e9e6",
+    "path": "M5 9l7 7 7-7"
+  },
+  "arrow-up-left": {
+    "codepoint": "e9e7",
+    "path": "M19 19 5 5M5 15V5h10"
+  },
+  "arrow-down-right": {
+    "codepoint": "e9e8",
+    "path": "M5 5l14 14M9 19h10V9"
+  },
+  "arrow-down-left": {
+    "codepoint": "e9e9",
+    "path": "M19 5 5 19M5 9v10h10"
+  },
+  "corner-down-right": {
+    "codepoint": "e9ea",
+    "path": "M5 4v9a3 3 0 0 0 3 3h12m-5-5 5 5-5 5"
+  },
+  "move": {
+    "codepoint": "e9eb",
+    "path": "M12 3v18M3 12h18M9 6l3-3 3 3M9 18l3 3 3-3M6 9l-3 3 3 3m12-6 3 3-3 3"
+  },
+  "grip-vertical": {
+    "codepoint": "e9ec",
+    "path": "M8 5h.1M16 5h.1M8 12h.1M16 12h.1M8 19h.1M16 19h.1"
+  },
+  "grip-horizontal": {
+    "codepoint": "e9ed",
+    "path": "M5 8h.1M12 8h.1M19 8h.1M5 16h.1M12 16h.1M19 16h.1"
+  },
+  "lock": {
+    "codepoint": "e9ee",
+    "path": "M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5Zm7 4v3"
+  },
+  "unlock": {
+    "codepoint": "e9ef",
+    "path": "M7 10V7a5 5 0 0 1 9-3M5 10h14v11H5Zm7 4v3"
+  },
+  "copy": {
+    "codepoint": "e9f0",
+    "path": "M8 8h13v13H8ZM16 5V2H2v14h3"
+  },
+  "settings-sliders": {
+    "codepoint": "e9f1",
+    "path": "M3 6h4m4 0h10M3 12h10m4 0h4M3 18h4m4 0h10M9 3v6m6 0v6M9 15v6"
+  },
+  "zoom-in": {
+    "codepoint": "e9f2",
+    "path": "M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0ZM15 15l6 6M7 10h6m-3-3v6"
+  },
+  "zoom-out": {
+    "codepoint": "e9f3",
+    "path": "M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0ZM15 15l6 6M7 10h6"
+  },
+  "filter-clear": {
+    "codepoint": "e9f4",
+    "path": "M3 4h18l-7 8v3M10 20v-8L3 4m13 12 5 5m0-5-5 5"
+  },
+  "filter-add": {
+    "codepoint": "e9f5",
+    "path": "M3 4h18l-7 8v3M10 20v-8L3 4m12 14h6m-3-3v6"
+  },
+  "heading-1": {
+    "codepoint": "e9f6",
+    "path": "M3 5v14M12 5v14M3 12h9m5-5 3-2v14m-3 0h6"
+  },
+  "heading-2": {
+    "codepoint": "e9f7",
+    "path": "M2 5v14M10 5v14M2 12h8m5-4c0-4 7-4 7 0 0 3-7 6-7 11h7"
+  },
+  "heading-3": {
+    "codepoint": "e9f8",
+    "path": "M2 5v14M10 5v14M2 12h8m5-6c5-3 9 2 3 5 6 1 4 8-2 6"
+  },
+  "text-wrap": {
+    "codepoint": "e9f9",
+    "path": "M3 5h18M3 10h14a4 4 0 0 1 0 8h-5m3-3-3 3 3 3M3 15h4"
+  },
+  "nonbreaking-space": {
+    "codepoint": "e9fa",
+    "path": "M4 7v8h16V7M9 12l3 3 3-3"
+  },
+  "list-nested": {
+    "codepoint": "e9fb",
+    "path": "M3 5h2m3 0h13M6 12h2m3 0h10M9 19h2m3 0h7"
+  },
+  "list-task": {
+    "codepoint": "e9fc",
+    "path": "M3 4h4v4H3Zm8 2h10M3 12l2 2 3-4m3 3h10M3 18h4v4H3Zm8 2h10"
+  },
+  "table-cell": {
+    "codepoint": "e9fd",
+    "path": "M3 3h18v18H3Zm0 6h18M3 15h18M9 3v18m6-18v18M10 10h4v4h-4Z"
+  },
+  "table-split": {
+    "codepoint": "e9fe",
+    "path": "M3 4h18v16H3Zm9 0v16M5 12h4m-2-2-2 2 2 2m8-2h4m-2-2 2 2-2 2"
+  },
+  "code-block": {
+    "codepoint": "e9ff",
+    "path": "M3 3h18v18H3Zm6 5-4 4 4 4m6-8 4 4-4 4"
+  },
+  "braces": {
+    "codepoint": "ea00",
+    "path": "M9 3H7v6l-3 3 3 3v6h2M15 3h2v6l3 3-3 3v6h-2"
+  },
+  "brackets": {
+    "codepoint": "ea01",
+    "path": "M9 3H4v18h5M15 3h5v18h-5"
+  },
+  "form": {
+    "codepoint": "ea02",
+    "path": "M4 3h16v18H4Zm4 4h8M8 11h8M8 15h3m3 2h2"
+  },
+  "input-password": {
+    "codepoint": "ea03",
+    "path": "M2 5h20v14H2Zm4 7h2m-1-2v4m4-2h2m-1-2v4m4-2h2m-1-2v4"
+  },
+  "input-number": {
+    "codepoint": "ea04",
+    "path": "M2 5h20v14H2Zm4 4h5m-5 6h5M16 5v14m0-7h6m-4-4h2m-1-1v2m-1 6h2"
+  },
+  "input-date": {
+    "codepoint": "ea05",
+    "path": "M3 5h18v16H3ZM7 3v4m10-4v4M3 10h18M7 14h3v3H7Z"
+  },
+  "input-upload": {
+    "codepoint": "ea06",
+    "path": "M3 15v6h18v-6M12 3v13M7 8l5-5 5 5"
+  },
+  "checkbox-indeterminate": {
+    "codepoint": "ea07",
+    "path": "M3 3h18v18H3Zm4 9h10"
+  },
+  "radio-selected": {
+    "codepoint": "ea08",
+    "path": "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-5 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+  },
+  "toggle-off": {
+    "codepoint": "ea09",
+    "path": "M8 6h8a6 6 0 0 1 0 12H8A6 6 0 0 1 8 6Zm3 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+  },
+  "range": {
+    "codepoint": "ea0a",
+    "path": "M3 12h18M7 8v8m10-8v8"
+  },
+  "color-picker": {
+    "codepoint": "ea0b",
+    "path": "M14 3l7 7M12 5l7 7m-3-3L6 19H3v-3L13 6m4 1 3-3"
+  },
+  "signature": {
+    "codepoint": "ea0c",
+    "path": "M3 17c7-15 11-14 7-5-3 7-6 8-6 5 0-3 5-4 8-3 3 2 5 2 9-1M3 21h18"
+  },
+  "cursor-text": {
+    "codepoint": "ea0d",
+    "path": "M8 3h8m-4 0v18m-4 0h8"
+  },
+  "cursor-click": {
+    "codepoint": "ea0e",
+    "path": "M4 3l4 16 4-6 7-2ZM14 3v2m5 0-2 2m4 3h-2"
+  },
+  "link-add": {
+    "codepoint": "ea0f",
+    "path": "M10 15 9 16a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m1 3 1-1a4 4 0 0 1 6 6l-1 1M8 12l6-6m0 12h8m-4-4v8"
+  },
+  "link-check": {
+    "codepoint": "ea10",
+    "path": "M10 15 9 16a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m1 3 1-1a4 4 0 0 1 6 6M8 12l6-6m-1 12 3 3 6-7"
+  },
+  "user-check": {
+    "codepoint": "ea11",
+    "path": "M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM3 21v-2a7 7 0 0 1 11-5m1 4 3 3 5-6"
+  },
+  "user-remove": {
+    "codepoint": "ea12",
+    "path": "M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM3 21v-2a7 7 0 0 1 11-5m2 4h7"
+  },
+  "message-add": {
+    "codepoint": "ea13",
+    "path": "M21 12V3H3v15h4v3l5-3m2-2h8m-4-4v8"
+  },
+  "message-check": {
+    "codepoint": "ea14",
+    "path": "M21 12V3H3v15h4v3l5-3m2-2 3 3 5-6"
+  },
+  "message-thread": {
+    "codepoint": "ea15",
+    "path": "M16 3H2v11h4v3l4-3h6ZM19 8h3v13l-4-3h-6"
+  },
+  "mail-open": {
+    "codepoint": "ea16",
+    "path": "M3 9l9-7 9 7v12H3Zm0 0 9 7 9-7M3 21l6-7m6 0 6 7"
+  },
+  "inbox": {
+    "codepoint": "ea17",
+    "path": "M6 4h12l4 11v6H2v-6Zm-4 11h6l2 3h4l2-3h6"
+  },
+  "notification-dot": {
+    "codepoint": "ea18",
+    "path": "M18 12v4l2 2H4l2-2V9a6 6 0 0 1 8-6M9 21h6M22 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+  },
+  "calendar-check": {
+    "codepoint": "ea19",
+    "path": "M3 5h18v16H3ZM7 3v4m10-4v4M3 10h18M8 15l3 3 5-5"
+  },
+  "calendar-add": {
+    "codepoint": "ea1a",
+    "path": "M3 5h18v16H3ZM7 3v4m10-4v4M3 10h18M8 15h8m-4-4v8"
+  },
+  "clock-alarm": {
+    "codepoint": "ea1b",
+    "path": "M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0ZM12 8v5l3 2M2 5l4-3m12 0 4 3M6 20l-2 2m14-2 2 2"
+  },
+  "stopwatch": {
+    "codepoint": "ea1c",
+    "path": "M20 14a8 8 0 1 1-16 0 8 8 0 0 1 16 0ZM9 2h6m-3 0v4m0 4v5m6-8 3-3"
+  },
+  "code-commit": {
+    "codepoint": "ea1d",
+    "path": "M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM2 12h6m8 0h6"
+  },
+  "code-merge": {
+    "codepoint": "ea1e",
+    "path": "M8 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm0 14a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM6 7v10m0-10c0 7 12 3 12 10"
+  },
+  "code-pull-request": {
+    "codepoint": "ea1f",
+    "path": "M8 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm0 14a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM6 7v10m12 0V8a3 3 0 0 0-3-3h-3m3-3-3 3 3 3"
+  },
+  "api": {
+    "codepoint": "ea20",
+    "path": "M2 8l4 4-4 4m20-8-4 4 4 4M14 4l-4 16"
+  },
+  "webhook": {
+    "codepoint": "ea21",
+    "path": "M7 14a4 4 0 1 0 4 4H7m3-9a4 4 0 1 1 7-1l-3 6m2 0a4 4 0 1 1 0 7M6 15l4-7m1 10h7"
+  },
+  "function": {
+    "codepoint": "ea22",
+    "path": "M17 3h-3c-2 0-2 2-2 4l-2 10c0 2-1 4-3 4H5M7 9h10"
+  },
+  "variable": {
+    "codepoint": "ea23",
+    "path": "M3 7h3l5 10h3M6 17l5-10h3m3 0h4m-2-2v4"
+  },
+  "database-add": {
+    "codepoint": "ea24",
+    "path": "M20 6c0 4-16 4-16 0s16-4 16 0ZM4 6v12c0 2 5 3 8 3M20 6v5M4 12c0 2 5 3 8 3m3 3h8m-4-4v8"
+  },
+  "server-check": {
+    "codepoint": "ea25",
+    "path": "M3 3h18v7H3Zm0 11h8m-8 0v7h8M7 6h.1M7 17h.1m6 0 3 3 6-7"
+  },
+  "cloud-off": {
+    "codepoint": "ea26",
+    "path": "M7 7a5 5 0 0 0-4 9 4 4 0 0 0 3 2h12M9 5c4-4 10 0 9 4 5 0 6 7 2 8M2 2l20 20"
+  },
+  "wifi-off": {
+    "codepoint": "ea27",
+    "path": "M3 8c2-2 4-3 7-3m4 0c3 0 5 1 7 3M6 12c2-2 5-3 8-2m-5 6c2-2 4-2 6 0m-3 4h.1M2 2l20 20"
+  },
+  "activity": {
+    "codepoint": "ea28",
+    "path": "M2 12h5l3-9 4 18 3-9h5"
+  },
+  "chart-area": {
+    "codepoint": "ea29",
+    "path": "M3 3v18h18M4 17l5-8 5 4 7-8v16"
+  },
+  "chart-scatter": {
+    "codepoint": "ea2a",
+    "path": "M3 3v18h18M7 15h.1M9 8h.1M13 12h.1M17 6h.1M19 15h.1"
+  },
+  "chart-donut": {
+    "codepoint": "ea2b",
+    "path": "M12 3a9 9 0 1 0 9 9h-5a4 4 0 1 1-4-4Zm4 0v5h5a9 9 0 0 0-5-5Z"
+  },
+  "percentage": {
+    "codepoint": "ea2c",
+    "path": "M4 20 20 4M9 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm12 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+  },
+  "calculator": {
+    "codepoint": "ea2d",
+    "path": "M5 2h14v20H5Zm3 3h8v4H8Zm0 8h1m6 0h1m-8 4h1m6 0h1"
+  },
+  "wallet": {
+    "codepoint": "ea2e",
+    "path": "M3 6V4h15v3M3 7h18v14H3Zm18 5h-6v5h6m-3-3h.1"
+  },
+  "coupon": {
+    "codepoint": "ea2f",
+    "path": "M3 5h18v5a2 2 0 0 0 0 4v5H3v-5a2 2 0 0 0 0-4Zm12 0v3m0 3v2m0 3v3"
+  },
+  "gift": {
+    "codepoint": "ea30",
+    "path": "M3 8h18v5H3Zm2 5v8h14v-8M12 8v13m0-13C2 8 5-1 12 8Zm0 0c10 0 7-9 0 0Z"
+  },
+  "package-open": {
+    "codepoint": "ea31",
+    "path": "M12 8 5 5 1 9l7 3Zm0 0 7-3 4 4-7 3ZM4 11v7l8 4 8-4v-7M12 8v14"
+  },
+  "refresh-check": {
+    "codepoint": "ea32",
+    "path": "M20 9a8 8 0 1 0-10 11M20 3v6h-6m0 8 3 3 5-6"
+  },
+  "shield-off": {
+    "codepoint": "ea33",
+    "path": "M12 3l8 3v6c0 2-1 4-2 5M14 20l-2 2s-8-4-8-10V6l2-1M2 2l20 20"
+  },
+  "fingerprint": {
+    "codepoint": "ea34",
+    "path": "M4 12a8 8 0 0 1 16 0v3M7 18v-6a5 5 0 0 1 10 0v5M10 21V12a2 2 0 0 1 4 0v7M4 16v2"
+  },
+  "panel-bottom": {
+    "codepoint": "ea35",
+    "path": "M3 3h18v18H3Zm0 12h18"
+  },
+  "panel-top": {
+    "codepoint": "ea36",
+    "path": "M3 3h18v18H3Zm0 9h18"
+  },
+  "tabs": {
+    "codepoint": "ea37",
+    "path": "M3 8h18v13H3ZM3 8V3h7v5m0-3h6v3m0-3h5v3"
+  },
+  "accordion": {
+    "codepoint": "ea38",
+    "path": "M3 3h18v6H3Zm0 9h18v9H3Zm4-7 2 2 2-2m-4 12 2-2 2 2"
+  },
+  "breadcrumb": {
+    "codepoint": "ea39",
+    "path": "M3 10h4v4H3Zm7-2 4 4-4 4m7-6h4v4h-4Z"
+  },
+  "pagination": {
+    "codepoint": "ea3a",
+    "path": "M4 9l-3 3 3 3m16-6 3 3-3 3M7 8h4v8H7Zm7 0h4v8h-4Z"
+  },
+  "steps": {
+    "codepoint": "ea3b",
+    "path": "M7 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm8 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm8 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM7 12h2m6 0h2"
+  },
+  "modal": {
+    "codepoint": "ea3c",
+    "path": "M2 3h20v18H2Zm4 4h12v10H6Zm9 2 1 1m0-1-1 1"
+  },
+  "tooltip": {
+    "codepoint": "ea3d",
+    "path": "M3 4h18v12h-6l-3 4-3-4H3Zm4 4h10m-10 4h6"
+  },
+  "list-tree": {
+    "codepoint": "ea3e",
+    "path": "M3 3v14h5M3 7h5m0-3h6v6H8Zm0 10h6v6H8Zm9-7h4m-4 10h4"
+  },
+  "sitemap": {
+    "codepoint": "ea3f",
+    "path": "M9 2h6v5H9Zm3 5v4M5 16v-5h14v5M2 16h6v6H2Zm14 0h6v6h-6Z"
+  },
+  "stack": {
+    "codepoint": "ea40",
+    "path": "M2 7l10-5 10 5-10 5Zm0 5 10 5 10-5M2 17l10 5 10-5"
+  },
+  "compass": {
+    "codepoint": "ea41",
+    "path": "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM16 8l-3 5-5 3 3-5Z"
+  },
+  "rocket": {
+    "codepoint": "ea42",
+    "path": "M9 9C12 3 17 2 22 2c0 5-1 10-7 13Zm0 0H5l-3 5h6m7 1v4l-5 3v-6m7-11h.1M6 18l-3 3"
+  },
+  "headphones": {
+    "codepoint": "ea43",
+    "path": "M3 14v-3a9 9 0 0 1 18 0v3M3 12h4v9H3Zm14 0h4v9h-4Z"
+  },
+  "music": {
+    "codepoint": "ea44",
+    "path": "M9 18V5l12-3v14M9 8l12-3M9 18c0 4-7 4-7 1 0-3 7-4 7-1Zm12-2c0 4-7 4-7 1 0-3 7-4 7-1Z"
+  },
+  "video-off": {
+    "codepoint": "ea45",
+    "path": "M4 5h10v5m0 4v5H2V7m15 3 5-3v10l-5-3M2 2l20 20"
+  },
+  "microphone-off": {
+    "codepoint": "ea46",
+    "path": "M9 5a3 3 0 0 1 6 0v6M9 9v2a3 3 0 0 0 4 3M5 10v1a7 7 0 0 0 12 5m2-6v1M12 18v4m-4 0h8M2 2l20 20"
+  },
+  "volume-low": {
+    "codepoint": "ea47",
+    "path": "M3 9h4l5-5v16l-5-5H3Zm13 0a5 5 0 0 1 0 6"
+  },
+  "repeat": {
+    "codepoint": "ea48",
+    "path": "M3 9V6h17m-4-4 4 4-4 4M21 15v3H4m4-4-4 4 4 4"
+  },
+  "shuffle": {
+    "codepoint": "ea49",
+    "path": "M3 5h3c5 0 7 14 12 14h3m-4-4 4 4-4 4M3 19h3c2 0 3-2 4-4m4-6c1-2 2-4 4-4h3m-4-4 4 4-4 4"
+  },
+  "scan": {
+    "codepoint": "ea4a",
+    "path": "M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M2 12h20"
+  },
+  "qr-scan": {
+    "codepoint": "ea4b",
+    "path": "M8 2H2v6m14-6h6v6M2 16v6h6m14-6v6h-6M6 6h4v4H6Zm8 0h4v4h-4ZM6 14h4v4H6Zm8 0h4v4h-4Z"
+  },
+  "file-search": {
+    "codepoint": "ea4c",
+    "path": "M13 3H3v18h7M13 3l5 5h-5Zm7 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-1 3 3 3"
+  },
+  "folder-search": {
+    "codepoint": "ea4d",
+    "path": "M21 9V6H11L9 3H2v17h8m10-5a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-1 3 3 3"
+  },
+  "file-check": {
+    "codepoint": "ea4e",
+    "path": "M13 3H3v18h11M13 3l6 6h-6Zm0 13 3 3 6-7"
+  },
+  "file-lock": {
+    "codepoint": "ea4f",
+    "path": "M13 3H3v18h6M13 3l6 6h-6Zm0 13h9v7h-9Zm2 0v-3a2.5 2.5 0 0 1 5 0v3"
+  },
+  "folder-heart": {
+    "codepoint": "ea50",
+    "path": "M21 10V6H11L9 3H2v17h8m6-7c-4-4-7 1 0 7 7-6 4-11 0-7Z"
+  },
+  "bookmark-add": {
+    "codepoint": "ea51",
+    "path": "M5 21V3h14v10M5 21l7-5m3 3h8m-4-4v8"
+  },
+  "bookmark-check": {
+    "codepoint": "ea52",
+    "path": "M5 21V3h14v10M5 21l7-5m1 2 3 3 6-7"
+  },
+  "pin-off": {
+    "codepoint": "ea53",
+    "path": "M10 3h8l-1 7 4 4h-6M7 7l-1 3-3 4h7v7m-8-19 20 20"
+  },
+  "flag-triangle": {
+    "codepoint": "ea54",
+    "path": "M4 22V2l16 6-16 6"
+  },
+  "accessibility-text": {
+    "codepoint": "ea55",
+    "path": "M2 5h12M8 5v16M18 10l-4 11m4-11 4 11m-6-4h4"
+  },
+  "contrast": {
+    "codepoint": "ea56",
+    "path": "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM12 3v18m0-15h6m-6 3h8m-8 3h9m-9 3h8m-8 3h6"
+  },
+  "focus": {
+    "codepoint": "ea57",
+    "path": "M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
   }
 }
