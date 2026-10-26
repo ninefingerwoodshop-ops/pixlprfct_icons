@@ -1,6 +1,6 @@
 # PixlPrfct Icons
 
-Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 226 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, and the PixlPrfct editor. All original icon names and codepoints remain stable.
+Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 344 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, and the PixlPrfct editor. All original icon names and codepoints remain stable.
 
 The `pixlprfct` brand symbol is Unbound: a flowing, open ribbon suggesting a P. It uses a consistent filled silhouette across all three font weights. Use `pxi-pixlprfct`; the gallery favicon uses the same symbol.
 
