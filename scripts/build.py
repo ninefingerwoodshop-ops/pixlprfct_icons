@@ -1,5 +1,5 @@
 """Build filled glyph outlines from the canonical SVG strokes, not faux-bold fonts."""
-import json
+import json, hashlib
 from pathlib import Path
 import skia
 from fontTools.fontBuilder import FontBuilder
@@ -12,6 +12,7 @@ from fontTools.ttLib import TTFont
 
 root = Path(__file__).resolve().parent.parent
 icons = json.loads((root / 'icons.json').read_text())
+version = json.loads((root / 'package.json').read_text())['version']
 fonts = root / 'fonts'
 fonts.mkdir(exist_ok=True)
 (root / 'css').mkdir(exist_ok=True)
@@ -59,9 +60,9 @@ for style, weight, stroke in [('Light', 300, 1), ('Regular', 400, 1.5), ('Bold',
     fb.setupHorizontalMetrics({name: (1024, getattr(fb.font['glyf'][name], 'xMin', 0)) for name in names})
     fb.setupHorizontalHeader(ascent=1024, descent=0)
     fb.setupNameTable({'familyName':'PixlPrfct Icons', 'styleName':style,
-                      'uniqueFontIdentifier':f'PixlPrfctIcons-{style}-0.1.0',
+                      'uniqueFontIdentifier':f'PixlPrfctIcons-{style}-{version}',
                       'fullName':f'PixlPrfct Icons {style}', 'psName':f'PixlPrfctIcons-{style}',
-                      'version':'Version 0.1.0'})
+                      'version':f'Version {version}'})
     fb.setupOS2(sTypoAscender=1024, sTypoDescender=0, usWinAscent=1024, usWinDescent=0,
                 usWeightClass=weight, fsSelection=32 if weight==700 else 64 if weight==400 else 0)
     fb.setupPost()
@@ -75,7 +76,8 @@ for style, weight, stroke in [('Light', 300, 1), ('Regular', 400, 1.5), ('Bold',
     check=TTFont(fonts / (filename+'.woff2'))
     assert len(check.getBestCmap()) == len(icons)
     assert all(check['glyf'][name].numberOfContours > 0 for name in icons)
-    css.append(f'@font-face{{font-family:"PixlPrfct Icons";src:url("../fonts/{filename}.woff2") format("woff2");font-weight:{weight};font-style:normal;font-display:block}}')
+    digest=hashlib.sha256((fonts / (filename+'.woff2')).read_bytes()).hexdigest()[:12]
+    css.append(f'@font-face{{font-family:"PixlPrfct Icons";src:url("../fonts/{filename}.woff2?v={digest}") format("woff2");font-weight:{weight};font-style:normal;font-display:block}}')
 css += ['.pxi{display:inline-block;font-family:"PixlPrfct Icons"!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;font-synthesis:none;speak:none;-webkit-font-smoothing:antialiased}', '.pxi-light{font-weight:300}.pxi-regular{font-weight:400}.pxi-bold{font-weight:700}']
 for name, data in icons.items(): css.append(f'.pxi-{name}::before{{content:"\\{data["codepoint"]}"}}')
 (root / 'css/icons.css').write_text('\n'.join(css)+'\n')
