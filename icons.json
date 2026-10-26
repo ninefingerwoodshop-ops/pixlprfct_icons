@@ -1375,5 +1375,159 @@
   "focus": {
     "codepoint": "ea57",
     "path": "M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+  },
+  "currency-dollar": {
+    "codepoint": "ea58",
+    "path": "M12 2v20M17 6c-2-3-10-3-10 2s10 3 10 8-8 5-10 2",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "dollar"
+    ]
+  },
+  "currency-euro": {
+    "codepoint": "ea59",
+    "path": "M19 5a8 8 0 1 0 0 14M3 10h12M3 14h10",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "euro"
+    ]
+  },
+  "currency-pound": {
+    "codepoint": "ea5a",
+    "path": "M6 20h13M4 12h10M7 20c4-4 1-8 1-12a4 4 0 0 1 8-2",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "pound"
+    ]
+  },
+  "currency-yen": {
+    "codepoint": "ea5b",
+    "path": "M5 3l7 9 7-9M12 12v9M6 12h12M6 16h12",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "yen"
+    ]
+  },
+  "currency-rupee": {
+    "codepoint": "ea5c",
+    "path": "M5 4h14M5 8h14M8 4a6 6 0 0 1 0 12H5l12 6",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "rupee"
+    ]
+  },
+  "currency-won": {
+    "codepoint": "ea5d",
+    "path": "M2 5l4 15 6-13 6 13 4-15M1 10h22M1 14h22",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "won"
+    ]
+  },
+  "currency-ruble": {
+    "codepoint": "ea5e",
+    "path": "M8 22V3h6a5 5 0 0 1 0 10H4M4 17h11",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "ruble"
+    ]
+  },
+  "currency-bitcoin": {
+    "codepoint": "ea5f",
+    "path": "M8 5h7a4 4 0 0 1 0 8H8m0 0h8a3 3 0 0 1 0 6H8M8 5v14M6 5h2M6 19h2M11 2v3M15 2v3M11 19v3M15 19v3",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "bitcoin"
+    ]
+  },
+  "money-banknote": {
+    "codepoint": "ea60",
+    "path": "M2 5h20v14H2ZM2 9a4 4 0 0 0 4-4M18 5a4 4 0 0 0 4 4M2 15a4 4 0 0 1 4 4M18 19a4 4 0 0 1 4-4M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "banknote"
+    ]
+  },
+  "money-coins": {
+    "codepoint": "ea61",
+    "path": "M14 5a6 3 0 1 1-12 0 6 3 0 0 1 12 0M2 5v4c0 4 12 4 12 0V5M2 9v4c0 2 3 3 6 3M2 13v4c0 2 3 3 6 3M22 13a6 3 0 1 1-12 0 6 3 0 0 1 12 0M10 13v5c0 4 12 4 12 0v-5",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "coins"
+    ]
+  },
+  "money-transfer": {
+    "codepoint": "ea62",
+    "path": "M3 6h16l-4-4M19 6l-4 4M21 18H5l4-4M5 18l4 4M12 10v4",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "transfer"
+    ]
+  },
+  "money-bank": {
+    "codepoint": "ea63",
+    "path": "M2 8l10-6 10 6H2ZM4 11v7M9 11v7M15 11v7M20 11v7M3 21h18",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "bank"
+    ]
+  },
+  "money-safe": {
+    "codepoint": "ea64",
+    "path": "M4 3h16v18H4ZM7 6h10v12H7ZM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0M12 9v6M9 12h6M6 21v1M18 21v1",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "safe"
+    ]
+  },
+  "money-piggy-bank": {
+    "codepoint": "ea65",
+    "path": "M4 10C5 6 14 5 18 9l3 1v6h-3l-2 4h-3v-3H9v3H6l-1-5C2 15 1 11 4 10ZM15 8V4l-4 3M8 10h4M17 12v1",
+    "keywords": [
+      "money",
+      "currency",
+      "finance",
+      "payment",
+      "bank"
+    ]
   }
 }

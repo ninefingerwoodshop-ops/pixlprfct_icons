@@ -1,6 +1,6 @@
-@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-light.woff2?v=78b92ffd343a") format("woff2");font-weight:300;font-style:normal;font-display:block}
-@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-regular.woff2?v=798024006bb4") format("woff2");font-weight:400;font-style:normal;font-display:block}
-@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-bold.woff2?v=854d06b00e26") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-light.woff2?v=211230c6dd25") format("woff2");font-weight:300;font-style:normal;font-display:block}
+@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-regular.woff2?v=768ac7e12c1b") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-bold.woff2?v=c389490b269e") format("woff2");font-weight:700;font-style:normal;font-display:block}
 .pxi{display:inline-block;font-family:"PixlPrfct Icons"!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;font-synthesis:none;speak:none;-webkit-font-smoothing:antialiased}
 .pxi-light{font-weight:300}.pxi-regular{font-weight:400}.pxi-bold{font-weight:700}
 .pxi-align-bottom::before{content:"\e900"}
@@ -347,3 +347,17 @@
 .pxi-accessibility-text::before{content:"\ea55"}
 .pxi-contrast::before{content:"\ea56"}
 .pxi-focus::before{content:"\ea57"}
+.pxi-currency-dollar::before{content:"\ea58"}
+.pxi-currency-euro::before{content:"\ea59"}
+.pxi-currency-pound::before{content:"\ea5a"}
+.pxi-currency-yen::before{content:"\ea5b"}
+.pxi-currency-rupee::before{content:"\ea5c"}
+.pxi-currency-won::before{content:"\ea5d"}
+.pxi-currency-ruble::before{content:"\ea5e"}
+.pxi-currency-bitcoin::before{content:"\ea5f"}
+.pxi-money-banknote::before{content:"\ea60"}
+.pxi-money-coins::before{content:"\ea61"}
+.pxi-money-transfer::before{content:"\ea62"}
+.pxi-money-bank::before{content:"\ea63"}
+.pxi-money-safe::before{content:"\ea64"}
+.pxi-money-piggy-bank::before{content:"\ea65"}
