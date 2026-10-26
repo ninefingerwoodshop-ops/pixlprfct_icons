@@ -217,7 +217,7 @@
   },
   "pixlprfct": {
     "codepoint": "e936",
-    "path": "M12 3l4 4-4 4-4-4ZM21 12l-4 4-4-4 4-4ZM12 21l-4-4 4-4 4 4ZM3 12l4-4 4 4-4 4Z"
+    "path": "M3 3h12v4H7v10H3ZM21 21H9v-4h8V7h4ZM10 10h4v4h-4Z"
   },
   "text-bold": {
     "codepoint": "e937",
