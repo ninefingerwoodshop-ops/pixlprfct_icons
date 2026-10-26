@@ -28,10 +28,10 @@ class SkiaPen(BasePen):
     def _closePath(self): self.path.close()
     def _endPath(self): pass
 
-def glyph(data, width):
+def glyph(data, width, filled=False):
     source = SkiaPen()
     parse_path(data, source)
-    paint = skia.Paint(Style=skia.Paint.kStroke_Style, StrokeWidth=width,
+    paint = skia.Paint(Style=skia.Paint.kFill_Style if filled else skia.Paint.kStroke_Style, StrokeWidth=width,
                        StrokeCap=skia.Paint.kRound_Cap, StrokeJoin=skia.Paint.kRound_Join)
     outline = skia.Path()
     paint.getFillPath(source.path, outline)
@@ -59,7 +59,7 @@ for style, weight, stroke in [('Light', 300, 1), ('Regular', 400, 1.5), ('Bold',
     names = ['.notdef'] + list(icons)
     fb.setupGlyphOrder(names)
     fb.setupCharacterMap({int(data['codepoint'], 16): name for name, data in icons.items()})
-    fb.setupGlyf({'.notdef': TTGlyphPen(None).glyph(), **{name: glyph(data['path'], stroke) for name, data in icons.items()}})
+    fb.setupGlyf({'.notdef': TTGlyphPen(None).glyph(), **{name: glyph(data['path'], stroke, data.get('filled', False)) for name, data in icons.items()}})
     fb.setupHorizontalMetrics({name: (1024, getattr(fb.font['glyf'][name], 'xMin', 0)) for name in names})
     fb.setupHorizontalHeader(ascent=1024, descent=0)
     fb.setupNameTable({'familyName':'PixlPrfct Icons', 'styleName':style,
