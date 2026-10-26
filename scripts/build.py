@@ -37,8 +37,11 @@ def glyph(data, width):
     paint.getFillPath(source.path, outline)
     tt = TTGlyphPen(None)
     pen = TransformPen(Cu2QuPen(tt, 0.5), (32, 0, 0, -32, 128, 896))
-    iterator = iter(outline)
-    for verb, pts in iterator:
+    # Advance this exact iterator: conicWeight belongs to its last next() call.
+    iterator = skia.Path.RawIter(outline)
+    while True:
+        verb, pts = iterator.next()
+        if verb == skia.Path.kDone_Verb: break
         point = lambda p: (p.x(), p.y())
         if verb == skia.Path.kMove_Verb: pen.moveTo(point(pts[0]))
         elif verb == skia.Path.kLine_Verb: pen.lineTo(point(pts[1]))

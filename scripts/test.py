@@ -1,4 +1,4 @@
-import json, re
+import json, re, subprocess, sys, hashlib
 from pathlib import Path
 from fontTools.ttLib import TTFont
 root=Path(__file__).resolve().parent.parent
@@ -18,3 +18,10 @@ for style,weight in [('light',300),('regular',400),('bold',700)]:
 css=(root/'css/icons.css').read_text()
 assert all(f'.pxi-{name}::before' in css for name in icons)
 print(f'Validated {len(icons)} permanent codepoints, 6 fonts, and all CSS classes.')
+
+# Rounded conic strokes must use the active iterator weight on every build.
+outputs=list((root/"fonts").glob("*"))+[root/"css/icons.css"]
+before={p:hashlib.sha256(p.read_bytes()).digest() for p in outputs}
+subprocess.run([sys.executable,str(root/"scripts/build.py")],check=True)
+assert before=={p:hashlib.sha256(p.read_bytes()).digest() for p in outputs}, "Font rebuild changed glyph outlines"
+print("Verified byte-identical font and CSS rebuilds.")
