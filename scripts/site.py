@@ -12,4 +12,5 @@ with zipfile.ZipFile(out/'downloads/pixlprfct-icons.zip','w',zipfile.ZIP_DEFLATE
         path=root/name
         for file in sorted(path.rglob('*')) if path.is_dir() else [path]:
             if file.is_file(): archive.write(file,Path('pixlprfct-icons')/file.relative_to(root))
+    archive.write(root/'site/favicon.svg', 'pixlprfct-icons/favicon.svg')
 print('Built gallery and downloadable font package in _site/')

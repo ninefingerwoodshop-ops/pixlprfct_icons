@@ -12,6 +12,7 @@ from fontTools.ttLib import TTFont
 
 root = Path(__file__).resolve().parent.parent
 icons = json.loads((root / 'icons.json').read_text())
+version = json.loads((root / 'package.json').read_text())['version']
 fonts = root / 'fonts'
 fonts.mkdir(exist_ok=True)
 (root / 'css').mkdir(exist_ok=True)
@@ -59,9 +60,9 @@ for style, weight, stroke in [('Light', 300, 1), ('Regular', 400, 1.5), ('Bold',
     fb.setupHorizontalMetrics({name: (1024, getattr(fb.font['glyf'][name], 'xMin', 0)) for name in names})
     fb.setupHorizontalHeader(ascent=1024, descent=0)
     fb.setupNameTable({'familyName':'PixlPrfct Icons', 'styleName':style,
-                      'uniqueFontIdentifier':f'PixlPrfctIcons-{style}-0.1.0',
+                      'uniqueFontIdentifier':f'PixlPrfctIcons-{style}-{version}',
                       'fullName':f'PixlPrfct Icons {style}', 'psName':f'PixlPrfctIcons-{style}',
-                      'version':'Version 0.1.0'})
+                      'version':f'Version {version}'})
     fb.setupOS2(sTypoAscender=1024, sTypoDescender=0, usWinAscent=1024, usWinDescent=0,
                 usWeightClass=weight, fsSelection=32 if weight==700 else 64 if weight==400 else 0)
     fb.setupPost()

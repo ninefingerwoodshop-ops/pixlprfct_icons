@@ -1,6 +1,8 @@
 # PixlPrfct Icons
 
-Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The first set contains 54 icons from the PixlPrfct editor, including the required-field asterisk.
+Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 226 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, and the PixlPrfct editor. All original icon names and codepoints remain stable.
+
+The `pixlprfct` brand symbol uses four offset diamond tiles around a central gap—no lettermark. Use `pxi-pixlprfct` in any of the three weights. The gallery favicon uses the same symbol.
 
 [Browse and download the icons](https://ninefingerwoodshop-ops.github.io/pixlprfct_icons/)
 
