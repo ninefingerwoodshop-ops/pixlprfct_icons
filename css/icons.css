@@ -1,6 +1,6 @@
-@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-light.woff2?v=61c429bda017") format("woff2");font-weight:300;font-style:normal;font-display:block}
-@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-regular.woff2?v=6027b97c0de5") format("woff2");font-weight:400;font-style:normal;font-display:block}
-@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-bold.woff2?v=a17a2d194268") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-light.woff2?v=f49f9d2abda8") format("woff2");font-weight:300;font-style:normal;font-display:block}
+@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-regular.woff2?v=39b2a9d3fb44") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"PixlPrfct Icons";src:url("../fonts/pixlprfct-icons-bold.woff2?v=52d66ef08c7d") format("woff2");font-weight:700;font-style:normal;font-display:block}
 .pxi{display:inline-block;font-family:"PixlPrfct Icons"!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;font-synthesis:none;speak:none;-webkit-font-smoothing:antialiased}
 .pxi-light{font-weight:300}.pxi-regular{font-weight:400}.pxi-bold{font-weight:700}
 .pxi-align-bottom::before{content:"\e900"}
