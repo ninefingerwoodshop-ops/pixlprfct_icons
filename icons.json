@@ -1529,5 +1529,87 @@
       "payment",
       "bank"
     ]
+  },
+  "rotate-right": {
+    "codepoint": "ea66",
+    "path": "M21 4v5h-5M19.52 14.74A8 8 0 1 1 17.14 5.87L21 9",
+    "keywords": [
+      "rotate",
+      "rotate 90",
+      "clockwise",
+      "turn"
+    ]
+  },
+  "flip-horizontal": {
+    "codepoint": "ea67",
+    "path": "M12 3v18M9 7 3 12l6 5ZM15 7l6 5-6 5Z",
+    "keywords": [
+      "flip",
+      "mirror",
+      "reflect",
+      "horizontal"
+    ]
+  },
+  "flip-vertical": {
+    "codepoint": "ea68",
+    "path": "M3 12h18M7 9l5-6 5 6ZM7 15l5 6 5-6Z",
+    "keywords": [
+      "flip",
+      "mirror",
+      "reflect",
+      "vertical"
+    ]
+  },
+  "bounding-box": {
+    "codepoint": "ea69",
+    "path": "M3 3h4v4H3ZM17 3h4v4h-4ZM3 17h4v4H3ZM17 17h4v4h-4ZM7 5h10M7 19h10M5 7v10M19 7v10",
+    "keywords": [
+      "edit object",
+      "transform",
+      "resize",
+      "handles",
+      "selection"
+    ]
+  },
+  "droplet": {
+    "codepoint": "ea6a",
+    "path": "M12 3C9.5 7.5 5.5 10.5 5.5 14.5a6.5 6.5 0 0 0 13 0c0-4-4-7-6.5-11.5Z",
+    "keywords": [
+      "blend mode",
+      "opacity",
+      "fill",
+      "ink",
+      "water"
+    ]
+  },
+  "layers": {
+    "codepoint": "ea6b",
+    "path": "M12 3l9 5-9 5-9-5ZM3 12l9 5 9-5M3 16l9 5 9-5",
+    "keywords": [
+      "stack",
+      "layer panel",
+      "levels",
+      "arrange"
+    ]
+  },
+  "swatches": {
+    "codepoint": "ea6c",
+    "path": "M10 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM20 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM10 17a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM20 17a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z",
+    "keywords": [
+      "styles",
+      "color variables",
+      "palette",
+      "library"
+    ]
+  },
+  "corners": {
+    "codepoint": "ea6d",
+    "path": "M9 3H3v6m12-6h6v6M3 15v6h6m6 0h6v-6",
+    "keywords": [
+      "independent corners",
+      "corner radius",
+      "radii",
+      "fit"
+    ]
   }
 }
