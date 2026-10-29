@@ -1,6 +1,6 @@
 # PixlPrfct Icons
 
-Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 464 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
+Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 472 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
 
 The `pixlprfct` brand symbol is Unbound: a flowing, open ribbon suggesting a P. It uses a consistent filled silhouette across all three font weights. Use `pxi-pixlprfct`; the gallery favicon uses the same symbol.
 
@@ -12,7 +12,7 @@ The 0.5.0 additions are original PixlPrfct drawings of 24 business and utility s
 
 ## File types
 
-Version 0.6.0 adds 55 file icons. The file family covers the common design, image, document, data, code, media, font, archive, and application formats below. Search by extension (for example `docx`, `heic`, or `woff2`) to find its icon. Format icons describe assets; application import support is defined by each app. `file-pdf` remains available for PDF, and `file-code` covers other source languages.
+Version 0.6.0 added 55 file icons. Version 0.7.0 adds eight more file families for subtitles, notebooks, configuration, certificates, maps/GPS, disk images, shortcuts, and ebooks. The file family covers the common design, image, document, data, code, media, font, archive, and application formats below. Search by extension (for example `docx`, `heic`, or `woff2`) to find its icon. Format icons describe assets; application import support is defined by each app. `file-pdf` remains available for PDF, and `file-code` covers other source languages.
 
 | Icon | Formats |
 |---|---|
@@ -70,6 +70,14 @@ Version 0.6.0 adds 55 file icons. The file family covers the common design, imag
 | `file-email` | `.eml`, `.msg`, `.mbox` |
 | `file-calendar` | `.ics`, `.ical`, `.icalendar` |
 | `file-contact` | `.vcf`, `.vcard` |
+| `file-subtitles` | `.srt`, `.vtt`, `.ass`, `.ssa`, `.sub`, `.sbv`, `.ttml`, `.dfxp` |
+| `file-notebook` | `.ipynb` |
+| `file-config` | `.toml`, `.ini`, `.env`, `.cfg`, `.conf`, `.properties` |
+| `file-certificate` | `.pem`, `.crt`, `.cer`, `.der`, `.p12`, `.pfx`, `.csr` |
+| `file-map` | `.gpx`, `.kml`, `.kmz`, `.geojson`, `.topojson`, `.shp`, `.gpkg` |
+| `file-disk-image` | `.iso`, `.img`, `.vhd`, `.vhdx`, `.vmdk`, `.qcow2` |
+| `file-shortcut` | `.lnk`, `.url`, `.webloc`, `.desktop` |
+| `file-ebook` | `.epub`, `.mobi`, `.azw`, `.azw3`, `.kfx`, `.fb2`, `.cbz`, `.cbr` |
 | `file-unknown` | Unknown file |
 
 ## Use the font
