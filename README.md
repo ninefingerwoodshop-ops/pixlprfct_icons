@@ -1,6 +1,6 @@
 # PixlPrfct Icons
 
-Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 409 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
+Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 464 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
 
 The `pixlprfct` brand symbol is Unbound: a flowing, open ribbon suggesting a P. It uses a consistent filled silhouette across all three font weights. Use `pxi-pixlprfct`; the gallery favicon uses the same symbol.
 
@@ -9,6 +9,68 @@ The `pixlprfct` brand symbol is Unbound: a flowing, open ribbon suggesting a P. 
 The `territory-track` brand symbol is a monochrome adaptation of Territory Track’s broad map-pin mark. Like `pixlprfct`, it keeps its filled silhouette across all three weights. Use `pxi-territory-track`.
 
 The 0.5.0 additions are original PixlPrfct drawings of 24 business and utility symbols plus the Territory Track brand mark; no Phosphor artwork is included.
+
+## File types
+
+Version 0.6.0 adds 55 file icons. The file family covers the common design, image, document, data, code, media, font, archive, and application formats below. Search by extension (for example `docx`, `heic`, or `woff2`) to find its icon. Format icons describe assets; application import support is defined by each app. `file-pdf` remains available for PDF, and `file-code` covers other source languages.
+
+| Icon | Formats |
+|---|---|
+| `file-jpg` | `.jpg`, `.jpeg`, `.jfif`, `.jpe` |
+| `file-png` | `.png`, `.apng` |
+| `file-gif` | `.gif` |
+| `file-webp` | `.webp` |
+| `file-avif` | `.avif` |
+| `file-tiff` | `.tif`, `.tiff` |
+| `file-bmp` | `.bmp`, `.dib` |
+| `file-heic` | `.heic`, `.heif` |
+| `file-raw` | `.raw`, `.dng`, `.cr2`, `.cr3`, `.nef`, `.nrw`, `.arw`, `.orf`, `.rw2`, `.raf` |
+| `file-ico` | `.ico`, `.icns`, `.cur` |
+| `file-jxl` | `.jxl` |
+| `file-jp2` | `.jp2`, `.j2k`, `.jpx` |
+| `file-svg` | `.svg`, `.svgz` |
+| `file-eps` | `.eps`, `.ps` |
+| `file-psd` | `.psd`, `.psb` |
+| `file-ai` | `.ai` |
+| `file-indesign` | `.indd`, `.idml` |
+| `file-fig` | `.fig` |
+| `file-pixl` | `.pixl` |
+| `file-word` | `.doc`, `.docx`, `.docm`, `.dot`, `.dotx` |
+| `file-excel` | `.xls`, `.xlsx`, `.xlsm`, `.xlsb`, `.xlt`, `.xltx` |
+| `file-powerpoint` | `.ppt`, `.pptx`, `.pptm`, `.pps`, `.ppsx`, `.potx` |
+| `file-csv` | `.csv` |
+| `file-tsv` | `.tsv` |
+| `file-markdown` | `.md`, `.markdown`, `.mdx` |
+| `file-rtf` | `.rtf` |
+| `file-txt` | `.txt`, `.text`, `.log` |
+| `file-html` | `.html`, `.htm`, `.xhtml` |
+| `file-css` | `.css`, `.scss`, `.sass`, `.less` |
+| `file-javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` |
+| `file-typescript` | `.ts`, `.mts`, `.cts`, `.tsx` |
+| `file-json` | `.json`, `.jsonc`, `.json5`, `.jsonl`, `.ndjson` |
+| `file-xml` | `.xml`, `.xsl`, `.xslt`, `.xsd`, `.rss`, `.atom` |
+| `file-yaml` | `.yaml`, `.yml` |
+| `file-sql` | `.sql` |
+| `file-zip` | `.zip`, `.zipx` |
+| `file-image` | Other images |
+| `file-vector` | `.cdr`, `.afdesign` |
+| `file-design` | `.afphoto`, `.afpub`, `.xd` |
+| `file-sketch` | `.sketch` |
+| `file-document` | `.odt`, `.ott`, `.pages`, `.epub` |
+| `file-spreadsheet` | `.ods`, `.ots`, `.numbers` |
+| `file-presentation` | `.odp`, `.otp`, `.key`, `.keynote` |
+| `file-font` | `.ttf`, `.otf`, `.woff`, `.woff2`, `.eot`, `.ttc` |
+| `file-archive` | `.rar`, `.7z`, `.tar`, `.gz`, `.tgz`, `.bz2`, `.xz`, `.zst`, `.lz`, `.lzma` |
+| `file-audio` | `.mp3`, `.wav`, `.m4a`, `.aac`, `.flac`, `.ogg`, `.oga`, `.opus`, `.aif`, `.aiff`, `.mid`, `.midi` |
+| `file-video` | `.mp4`, `.m4v`, `.mov`, `.webm`, `.avi`, `.mkv`, `.mpeg`, `.mpg`, `.wmv` |
+| `file-3d` | `.obj`, `.fbx`, `.gltf`, `.glb`, `.blend`, `.stl`, `.ply`, `.usd`, `.usda`, `.usdc`, `.usdz`, `.dae` |
+| `file-cad` | `.dwg`, `.dxf`, `.step`, `.stp`, `.iges`, `.igs` |
+| `file-database` | `.db`, `.sqlite`, `.sqlite3`, `.mdb`, `.accdb` |
+| `file-executable` | `.exe`, `.msi`, `.app`, `.dmg`, `.pkg`, `.apk`, `.deb`, `.rpm`, `.wasm`, `.bin`, `.dll`, `.so`, `.dylib` |
+| `file-email` | `.eml`, `.msg`, `.mbox` |
+| `file-calendar` | `.ics`, `.ical`, `.icalendar` |
+| `file-contact` | `.vcf`, `.vcard` |
+| `file-unknown` | Unknown file |
 
 ## Use the font
 
