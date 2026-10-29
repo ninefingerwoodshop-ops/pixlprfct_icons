@@ -1,10 +1,14 @@
 # PixlPrfct Icons
 
-Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 384 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, and the PixlPrfct editor. All original icon names and codepoints remain stable.
+Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 409 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
 
 The `pixlprfct` brand symbol is Unbound: a flowing, open ribbon suggesting a P. It uses a consistent filled silhouette across all three font weights. Use `pxi-pixlprfct`; the gallery favicon uses the same symbol.
 
 [Browse and download the icons](https://ninefingerwoodshop-ops.github.io/pixlprfct_icons/)
+
+The `territory-track` brand symbol is a monochrome adaptation of Territory Track’s broad map-pin mark. Like `pixlprfct`, it keeps its filled silhouette across all three weights. Use `pxi-territory-track`.
+
+The 0.5.0 additions are original PixlPrfct drawings of 24 business and utility symbols plus the Territory Track brand mark; no Phosphor artwork is included.
 
 ## Use the font
 
