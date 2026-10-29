@@ -1611,5 +1611,167 @@
       "radii",
       "fit"
     ]
+  },
+  "blend-mode": {
+    "codepoint": "ea6e",
+    "path": "M12 2C9 7 5 11 5 15a7 7 0 0 0 14 0c0-4-4-8-7-13Z",
+    "keywords": [
+      "blend",
+      "paint",
+      "opacity"
+    ]
+  },
+  "keyframe": {
+    "codepoint": "ea6f",
+    "path": "m12 3 9 9-9 9-9-9Zm0 7v4m-2-2h4",
+    "keywords": [
+      "animation",
+      "timeline",
+      "motion"
+    ]
+  },
+  "timeline-collapse": {
+    "codepoint": "ea70",
+    "path": "M3 5h18v14H3ZM3 11h18",
+    "keywords": [
+      "timeline",
+      "panel",
+      "collapse"
+    ]
+  },
+  "mode-draw": {
+    "codepoint": "ea71",
+    "path": "m9 15 8-12 4 3-10 10M9 15c-4-2-7 1-6 6 4 0 8-1 8-5Z",
+    "keywords": [
+      "draw",
+      "brush",
+      "mode"
+    ]
+  },
+  "mode-design": {
+    "codepoint": "ea72",
+    "path": "M3 3h4v4H3ZM17 3h4v4h-4ZM3 17h4v4H3ZM17 17h4v4h-4ZM7 5h10M5 7v10M19 7v10M7 19h10M9 9l6 3-3 1-1 3Z",
+    "keywords": [
+      "design",
+      "selection",
+      "mode"
+    ]
+  },
+  "mode-motion": {
+    "codepoint": "ea73",
+    "path": "M3 6v12M7 4v16M11 3l10 9-10 9Z",
+    "keywords": [
+      "motion",
+      "animation",
+      "mode"
+    ]
+  },
+  "mode-dev": {
+    "codepoint": "ea74",
+    "path": "M7 6l-5 6 5 6M17 6l5 6-5 6M14 3l-4 18",
+    "keywords": [
+      "development",
+      "code",
+      "mode"
+    ]
+  },
+  "section": {
+    "codepoint": "ea75",
+    "path": "M3 8V4h7l2 3h9v14H3V8Z",
+    "keywords": [
+      "section",
+      "organize",
+      "region"
+    ]
+  },
+  "slice": {
+    "codepoint": "ea76",
+    "path": "M3 8V3h5M16 3h5v5M21 16v5h-5M8 21H3v-5M9 3v3m6-3v3M3 9h3m-3 6h3M9 18v3m6-3v3M18 9h3m-3 6h3",
+    "keywords": [
+      "slice",
+      "export",
+      "region"
+    ]
+  },
+  "text-path": {
+    "codepoint": "ea77",
+    "path": "M3 20c5-9 13 1 18-8M5 4h12M11 4v11M8 15h6",
+    "keywords": [
+      "text",
+      "path",
+      "curve"
+    ]
+  },
+  "code": {
+    "codepoint": "ea78",
+    "path": "M8 4H6v5l-3 3 3 3v5h2M16 4h2v5l3 3-3 3v5h-2",
+    "keywords": [
+      "code",
+      "development",
+      "braces"
+    ]
+  },
+  "spec": {
+    "codepoint": "ea79",
+    "path": "M5 3h14v18H5ZM8 7h8M8 11h8M8 15h5",
+    "keywords": [
+      "specification",
+      "document",
+      "handoff"
+    ]
+  },
+  "comment": {
+    "codepoint": "ea7a",
+    "path": "M4 3h16v14H9l-5 4V3ZM8 7h8M8 11h5",
+    "keywords": [
+      "comment",
+      "conversation",
+      "feedback"
+    ]
+  },
+  "annotation": {
+    "codepoint": "ea7b",
+    "path": "M4 3h16v14H9l-5 4V3ZM8 13l4-7 4 7M10 11h4",
+    "keywords": [
+      "annotation",
+      "notes",
+      "label"
+    ]
+  },
+  "measurement": {
+    "codepoint": "ea7c",
+    "path": "M4 4h16v16H4ZM4 9h4M4 14h4M9 4v4M14 4v4",
+    "keywords": [
+      "measurement",
+      "dimensions",
+      "ruler"
+    ]
+  },
+  "media": {
+    "codepoint": "ea7d",
+    "path": "M3 4h18v16H3ZM10 8l6 4-6 4Z",
+    "keywords": [
+      "media",
+      "video",
+      "play"
+    ]
+  },
+  "design": {
+    "codepoint": "ea7e",
+    "path": "M7 3v18M17 3v18M3 7h18M3 17h18",
+    "keywords": [
+      "frame",
+      "design",
+      "layout"
+    ]
+  },
+  "motion": {
+    "codepoint": "ea7f",
+    "path": "M9 4l12 8-12 8ZM3 7v10M6 5v14",
+    "keywords": [
+      "motion",
+      "animation",
+      "play"
+    ]
   }
 }
