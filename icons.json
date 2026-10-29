@@ -1,7 +1,13 @@
 {
   "align-bottom": {
     "codepoint": "e900",
-    "path": "M3 20h18M7 4h3v12H7Zm7 4h3v8h-3Z"
+    "path": "M3 20h18M7 4h3v12H7Zm7 4h3v8h-3Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "align-center": {
     "codepoint": "e901",
@@ -13,7 +19,13 @@
   },
   "align-middle": {
     "codepoint": "e903",
-    "path": "M3 12h18M7 4h3v16H7Zm7 4h3v8h-3Z"
+    "path": "M3 12h18M7 4h3v16H7Zm7 4h3v8h-3Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "align-right": {
     "codepoint": "e904",
@@ -21,7 +33,13 @@
   },
   "align-top": {
     "codepoint": "e905",
-    "path": "M3 4h18M7 8h3v12H7Zm7 0h3v8h-3Z"
+    "path": "M3 4h18M7 8h3v12H7Zm7 0h3v8h-3Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "arrow": {
     "codepoint": "e906",
@@ -29,7 +47,13 @@
   },
   "aspect-lock": {
     "codepoint": "e907",
-    "path": "M9 10V7a3 3 0 0 1 6 0v3M7 10h10v10H7Zm5 4v2"
+    "path": "M9 10V7a3 3 0 0 1 6 0v3M7 10h10v10H7Zm5 4v2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
+    ]
   },
   "asterisk": {
     "codepoint": "e908",
@@ -53,11 +77,23 @@
   },
   "eye": {
     "codepoint": "e90d",
-    "path": "M2 12s4-6 10-6 10 6 10 6-4 6-10 6-10-6-10-6Zm10-3a3 3 0 1 0 0 6 3 3 0 1 0 0-6"
+    "path": "M2 12s4-6 10-6 10 6 10 6-4 6-10 6-10-6-10-6Zm10-3a3 3 0 1 0 0 6 3 3 0 1 0 0-6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "eye-off": {
     "codepoint": "e90e",
-    "path": "M3 3l18 18M9 6.5A11 11 0 0 1 12 6c6 0 10 6 10 6a19 19 0 0 1-3 3.5M6 7.5A19 19 0 0 0 2 12s4 6 10 6a12 12 0 0 0 5-1M10 10a3 3 0 0 0 4 4"
+    "path": "M3 3l18 18M9 6.5A11 11 0 0 1 12 6c6 0 10 6 10 6a19 19 0 0 1-3 3.5M6 7.5A19 19 0 0 0 2 12s4 6 10 6a12 12 0 0 0 5-1M10 10a3 3 0 0 0 4 4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "file": {
     "codepoint": "e90f",
@@ -89,7 +125,13 @@
   },
   "image": {
     "codepoint": "e916",
-    "path": "M3 3h18v18H3ZM3 17l6-6 4 4 3-3 5 5M15 7h.01"
+    "path": "M3 3h18v18H3ZM3 17l6-6 4 4 3-3 5 5M15 7h.01",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
+    ]
   },
   "instance": {
     "codepoint": "e917",
@@ -153,7 +195,13 @@
   },
   "redo": {
     "codepoint": "e926",
-    "path": "m16 5 5 5-5 5m5-5H10a6 6 0 0 0 0 12"
+    "path": "m16 5 5 5-5 5m5-5H10a6 6 0 0 0 0 12",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "scale": {
     "codepoint": "e927",
@@ -161,7 +209,13 @@
   },
   "search": {
     "codepoint": "e928",
-    "path": "M10 3a7 7 0 1 0 0 14 7 7 0 1 0 0-14m5 12 6 6"
+    "path": "M10 3a7 7 0 1 0 0 14 7 7 0 1 0 0-14m5 12 6 6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "select": {
     "codepoint": "e929",
@@ -177,7 +231,13 @@
   },
   "text": {
     "codepoint": "e92c",
-    "path": "M5 5V3h14v2M12 3v18M8 21h8"
+    "path": "M5 5V3h14v2M12 3v18M8 21h8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-height": {
     "codepoint": "e92d",
@@ -193,11 +253,23 @@
   },
   "undo": {
     "codepoint": "e930",
-    "path": "M8 5 3 10l5 5M3 10h11a6 6 0 0 1 0 12"
+    "path": "M8 5 3 10l5 5M3 10h11a6 6 0 0 1 0 12",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "unlink": {
     "codepoint": "e931",
-    "path": "m3 3 18 18M10 6l2-2a5 5 0 0 1 7 7l-2 2M14 18l-2 2a5 5 0 0 1-7-7l2-2"
+    "path": "m3 3 18 18M10 6l2-2a5 5 0 0 1 7 7l-2 2M14 18l-2 2a5 5 0 0 1-7-7l2-2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "variable-color": {
     "codepoint": "e932",
@@ -222,155 +294,383 @@
   },
   "text-bold": {
     "codepoint": "e937",
-    "path": "M7 4h6a4 4 0 0 1 0 8H7V4Zm0 8h7a4 4 0 0 1 0 8H7v-8Z"
+    "path": "M7 4h6a4 4 0 0 1 0 8H7V4Zm0 8h7a4 4 0 0 1 0 8H7v-8Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-italic": {
     "codepoint": "e938",
-    "path": "M10 4h9M5 20h9M15 4 9 20"
+    "path": "M10 4h9M5 20h9M15 4 9 20",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-underline": {
     "codepoint": "e939",
-    "path": "M6 4v7a6 6 0 0 0 12 0V4M4 21h16"
+    "path": "M6 4v7a6 6 0 0 0 12 0V4M4 21h16",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-strikethrough": {
     "codepoint": "e93a",
-    "path": "M18 6c-2-3-10-3-11 1-1 3 3 4 5 5M6 18c2 3 10 3 11-1 1-3-3-4-5-5M3 12h18"
+    "path": "M18 6c-2-3-10-3-11 1-1 3 3 4 5 5M6 18c2 3 10 3 11-1 1-3-3-4-5-5M3 12h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-align-left": {
     "codepoint": "e93b",
-    "path": "M4 5h16M4 10h10M4 15h16M4 20h10"
+    "path": "M4 5h16M4 10h10M4 15h16M4 20h10",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "text-align-center": {
     "codepoint": "e93c",
-    "path": "M4 5h16M7 10h10M4 15h16M7 20h10"
+    "path": "M4 5h16M7 10h10M4 15h16M7 20h10",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "text-align-right": {
     "codepoint": "e93d",
-    "path": "M4 5h16M10 10h10M4 15h16M10 20h10"
+    "path": "M4 5h16M10 10h10M4 15h16M10 20h10",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "text-align-justify": {
     "codepoint": "e93e",
-    "path": "M4 5h16M4 10h16M4 15h16M4 20h16"
+    "path": "M4 5h16M4 10h16M4 15h16M4 20h16",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "text-heading": {
     "codepoint": "e93f",
-    "path": "M5 5v14M19 5v14M5 12h14"
+    "path": "M5 5v14M19 5v14M5 12h14",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-paragraph": {
     "codepoint": "e940",
-    "path": "M13 4H9a5 5 0 0 0 0 10h4M13 4v17M18 4v17M9 4h12"
+    "path": "M13 4H9a5 5 0 0 0 0 10h4M13 4v17M18 4v17M9 4h12",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-quote": {
     "codepoint": "e941",
-    "path": "M4 7h6v7H4V7Zm0 7v3l3-3M14 7h6v7h-6V7Zm0 7v3l3-3"
+    "path": "M4 7h6v7H4V7Zm0 7v3l3-3M14 7h6v7h-6V7Zm0 7v3l3-3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "text-code": {
     "codepoint": "e942",
-    "path": "M8 6l-6 6 6 6M16 6l6 6-6 6M14 4l-4 16"
+    "path": "M8 6l-6 6 6 6M16 6l6 6-6 6M14 4l-4 16",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "text-highlight": {
     "codepoint": "e943",
-    "path": "M4 16l9-12 7 5-9 12-7-5ZM7 12l7 5M3 21h8"
+    "path": "M4 16l9-12 7 5-9 12-7-5ZM7 12l7 5M3 21h8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-color": {
     "codepoint": "e944",
-    "path": "M6 16l6-13 6 13M8 12h8M4 21h16"
+    "path": "M6 16l6-13 6 13M8 12h8M4 21h16",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-clear-format": {
     "codepoint": "e945",
-    "path": "M5 4h14M12 4l-3 13M4 20h7M15 15l6 6M21 15l-6 6"
+    "path": "M5 4h14M12 4l-3 13M4 20h7M15 15l6 6M21 15l-6 6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-subscript": {
     "codepoint": "e946",
-    "path": "M4 5l8 12M12 5 4 17M16 15c0-3 5-3 5 0 0 2-5 3-5 6h5"
+    "path": "M4 5l8 12M12 5 4 17M16 15c0-3 5-3 5 0 0 2-5 3-5 6h5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-superscript": {
     "codepoint": "e947",
-    "path": "M4 7l8 13M12 7 4 20M16 5c0-3 5-3 5 0 0 2-5 3-5 6h5"
+    "path": "M4 7l8 13M12 7 4 20M16 5c0-3 5-3 5 0 0 2-5 3-5 6h5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-line-height": {
     "codepoint": "e948",
-    "path": "M3 7l3-3 3 3M6 4v16M3 17l3 3 3-3M13 4h8M13 12h8M13 20h8"
+    "path": "M3 7l3-3 3 3M6 4v16M3 17l3 3 3-3M13 4h8M13 12h8M13 20h8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-letter-spacing": {
     "codepoint": "e949",
-    "path": "M8 14l4-10 4 10M10 10h4M3 20h18M6 17l-3 3 3 3M18 17l3 3-3 3"
+    "path": "M8 14l4-10 4 10M10 10h4M3 20h18M6 17l-3 3 3 3M18 17l3 3-3 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-indent": {
     "codepoint": "e94a",
-    "path": "M11 5h10M11 10h10M11 15h10M3 20h18M3 7l4 4-4 4"
+    "path": "M11 5h10M11 10h10M11 15h10M3 20h18M3 7l4 4-4 4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "text-outdent": {
     "codepoint": "e94b",
-    "path": "M11 5h10M11 10h10M11 15h10M3 20h18M7 7l-4 4 4 4"
+    "path": "M11 5h10M11 10h10M11 15h10M3 20h18M7 7l-4 4 4 4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "list-bulleted": {
     "codepoint": "e94c",
-    "path": "M9 5h12M9 12h12M9 19h12M3 4h2v2H3ZM3 11h2v2H3ZM3 18h2v2H3Z"
+    "path": "M9 5h12M9 12h12M9 19h12M3 4h2v2H3ZM3 11h2v2H3ZM3 18h2v2H3Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "list-numbered": {
     "codepoint": "e94d",
-    "path": "M10 5h11M10 12h11M10 19h11M3 3h2v5M3 8h4M3 13c0-3 4-3 4 0l-4 7h4"
+    "path": "M10 5h11M10 12h11M10 19h11M3 3h2v5M3 8h4M3 13c0-3 4-3 4 0l-4 7h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "list-check": {
     "codepoint": "e94e",
-    "path": "M9 5h12M9 12h12M9 19h12M2 5l2 2 3-4M2 12l2 2 3-4M2 19l2 2 3-4"
+    "path": "M9 5h12M9 12h12M9 19h12M2 5l2 2 3-4M2 12l2 2 3-4M2 19l2 2 3-4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "link": {
     "codepoint": "e94f",
-    "path": "M10 8l3-3a4 4 0 0 1 6 6l-3 3M14 16l-3 3a4 4 0 0 1-6-6l3-3M8 16l8-8"
+    "path": "M10 8l3-3a4 4 0 0 1 6 6l-3 3M14 16l-3 3a4 4 0 0 1-6-6l3-3M8 16l8-8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "anchor": {
     "codepoint": "e950",
-    "path": "M10 5a2 2 0 1 0 4 0 2 2 0 1 0-4 0M12 7v14M3 12v3a9 6 0 0 0 18 0v-3M1 14l2-2 2 2M19 14l2-2 2 2"
+    "path": "M10 5a2 2 0 1 0 4 0 2 2 0 1 0-4 0M12 7v14M3 12v3a9 6 0 0 0 18 0v-3M1 14l2-2 2 2M19 14l2-2 2 2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "horizontal-rule": {
     "codepoint": "e951",
-    "path": "M3 12h18"
+    "path": "M3 12h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "page-break": {
     "codepoint": "e952",
-    "path": "M5 9V3h14v6M5 15v6h14v-6M2 12h4M10 12h4M18 12h4"
+    "path": "M5 9V3h14v6M5 15v6h14v-6M2 12h4M10 12h4M18 12h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "special-character": {
     "codepoint": "e953",
-    "path": "M5 20h5v-3a7 7 0 1 1 4 0v3h5"
+    "path": "M5 20h5v-3a7 7 0 1 1 4 0v3h5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "spellcheck": {
     "codepoint": "e954",
-    "path": "M3 12l4-9 4 9M5 9h4M13 17l3 3 6-7"
+    "path": "M3 12l4-9 4 9M5 9h4M13 17l3 3 6-7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "find-replace": {
     "codepoint": "e955",
-    "path": "M3 7a4 4 0 1 0 8 0 4 4 0 1 0-8 0M10 10l4 4M4 18h16M17 15l3 3-3 3"
+    "path": "M3 7a4 4 0 1 0 8 0 4 4 0 1 0-8 0M10 10l4 4M4 18h16M17 15l3 3-3 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "table": {
     "codepoint": "e956",
-    "path": "M3 4h18v16H3ZM3 9h18M3 14h18M9 4v16M15 4v16"
+    "path": "M3 4h18v16H3ZM3 9h18M3 14h18M9 4v16M15 4v16",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "table-row-add": {
     "codepoint": "e957",
-    "path": "M3 3h18v11H3ZM3 8h18M12 17v6M9 20h6"
+    "path": "M3 3h18v11H3ZM3 8h18M12 17v6M9 20h6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "table-column-add": {
     "codepoint": "e958",
-    "path": "M3 3h11v18H3ZM8 3v18M17 12h6M20 9v6"
+    "path": "M3 3h11v18H3ZM8 3v18M17 12h6M20 9v6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "table-row-remove": {
     "codepoint": "e959",
-    "path": "M3 3h18v11H3ZM3 8h18M8 20h8"
+    "path": "M3 3h18v11H3ZM3 8h18M8 20h8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "table-column-remove": {
     "codepoint": "e95a",
-    "path": "M3 3h11v18H3ZM8 3v18M17 12h6"
+    "path": "M3 3h11v18H3ZM8 3v18M17 12h6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "table-merge": {
     "codepoint": "e95b",
-    "path": "M3 4h18v16H3ZM3 9h18M9 4v5M15 4v5M6 14h12M9 11l-3 3 3 3M15 11l3 3-3 3"
+    "path": "M3 4h18v16H3ZM3 9h18M9 4v5M15 4v5M6 14h12M9 11l-3 3 3 3M15 11l3 3-3 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "clipboard": {
     "codepoint": "e95c",
-    "path": "M8 5H4v17h16V5h-4M8 2h8v6H8Z"
+    "path": "M8 5H4v17h16V5h-4M8 2h8v6H8Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "clipboard-check": {
     "codepoint": "e95d",
@@ -378,19 +678,43 @@
   },
   "cut": {
     "codepoint": "e95e",
-    "path": "M3 5a3 3 0 1 0 6 0 3 3 0 1 0-6 0M3 19a3 3 0 1 0 6 0 3 3 0 1 0-6 0M8 7l13 14M8 17 21 3"
+    "path": "M3 5a3 3 0 1 0 6 0 3 3 0 1 0-6 0M3 19a3 3 0 1 0 6 0 3 3 0 1 0-6 0M8 7l13 14M8 17 21 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "paste": {
     "codepoint": "e95f",
-    "path": "M8 5H4v16h8M8 2h8v6H8ZM16 5h4v5M14 12h8v10h-8Z"
+    "path": "M8 5H4v16h8M8 2h8v6H8ZM16 5h4v5M14 12h8v10h-8Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "save": {
     "codepoint": "e960",
-    "path": "M4 3h13l4 4v14H3V3h1ZM7 3v6h9V3M7 21v-8h10v8"
+    "path": "M4 3h13l4 4v14H3V3h1ZM7 3v6h9V3M7 21v-8h10v8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "print": {
     "codepoint": "e961",
-    "path": "M6 8V3h12v5M6 17H3V8h18v9h-3M6 14h12v7H6ZM17 11h1"
+    "path": "M6 8V3h12v5M6 17H3V8h18v9h-3M6 14h12v7H6ZM17 11h1",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "file-text": {
     "codepoint": "e962",
@@ -426,11 +750,23 @@
   },
   "download": {
     "codepoint": "e96a",
-    "path": "M12 3v12M7 10l5 5 5-5M4 16v5h16v-5"
+    "path": "M12 3v12M7 10l5 5 5-5M4 16v5h16v-5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "upload": {
     "codepoint": "e96b",
-    "path": "M12 16V4M7 9l5-5 5 5M4 16v5h16v-5"
+    "path": "M12 16V4M7 9l5-5 5 5M4 16v5h16v-5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "cloud": {
     "codepoint": "e96c",
@@ -590,7 +926,13 @@
   },
   "video": {
     "codepoint": "e993",
-    "path": "M2 5h13v14H2ZM15 10l7-4v12l-7-4"
+    "path": "M2 5h13v14H2ZM15 10l7-4v12l-7-4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "microphone": {
     "codepoint": "e994",
@@ -630,11 +972,23 @@
   },
   "image-add": {
     "codepoint": "e99d",
-    "path": "M3 3h18v18H3ZM3 17l6-6 6 7M16 6v6M13 9h6"
+    "path": "M3 3h18v18H3ZM3 17l6-6 6 7M16 6v6M13 9h6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
+    ]
   },
   "calendar": {
     "codepoint": "e99e",
-    "path": "M3 5h18v16H3ZM3 10h18M7 2v6M17 2v6M7 14h2M13 14h2M7 18h2"
+    "path": "M3 5h18v16H3ZM3 10h18M7 2v6M17 2v6M7 14h2M13 14h2M7 18h2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "clock": {
     "codepoint": "e99f",
@@ -642,7 +996,13 @@
   },
   "history": {
     "codepoint": "e9a0",
-    "path": "M3 10a9 9 0 1 1 1 7M3 3v7h7M12 7v5l4 2"
+    "path": "M3 10a9 9 0 1 1 1 7M3 3v7h7M12 7v5l4 2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "location": {
     "codepoint": "e9a1",
@@ -662,7 +1022,13 @@
   },
   "bookmark": {
     "codepoint": "e9a5",
-    "path": "M5 3h14v19l-7-5-7 5V3Z"
+    "path": "M5 3h14v19l-7-5-7 5V3Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "flag": {
     "codepoint": "e9a6",
@@ -766,11 +1132,23 @@
   },
   "language": {
     "codepoint": "e9bf",
-    "path": "M2 5h12M8 2v3M4 5c0 6 6 10 9 11M12 5c0 6-6 10-10 11M13 22l5-12 5 12M15 18h6"
+    "path": "M2 5h12M8 2v3M4 5c0 6 6 10 9 11M12 5c0 6-6 10-10 11M13 22l5-12 5 12M15 18h6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "accessibility": {
     "codepoint": "e9c0",
-    "path": "M10 3a2 2 0 1 0 4 0 2 2 0 1 0-4 0M3 8l9 2 9-2M12 10v5M8 22l4-7 4 7"
+    "path": "M10 3a2 2 0 1 0 4 0 2 2 0 1 0-4 0M3 8l9 2 9-2M12 10v5M8 22l4-7 4 7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "checkbox": {
     "codepoint": "e9c1",
@@ -810,11 +1188,23 @@
   },
   "resize": {
     "codepoint": "e9ca",
-    "path": "M3 9V3h6M15 21h6v-6M3 3l7 7M21 21l-7-7"
+    "path": "M3 9V3h6M15 21h6v-6M3 3l7 7M21 21l-7-7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
+    ]
   },
   "fullscreen": {
     "codepoint": "e9cb",
-    "path": "M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6"
+    "path": "M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "minimize": {
     "codepoint": "e9cc",
@@ -822,7 +1212,13 @@
   },
   "crop": {
     "codepoint": "e9cd",
-    "path": "M6 2v16h16M2 6h16v16"
+    "path": "M6 2v16h16M2 6h16v16",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
+    ]
   },
   "palette": {
     "codepoint": "e9ce",
@@ -838,7 +1234,13 @@
   },
   "layout-columns": {
     "codepoint": "e9d1",
-    "path": "M3 3h18v18H3ZM12 3v18"
+    "path": "M3 3h18v18H3ZM12 3v18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "layout-rows": {
     "codepoint": "e9d2",
@@ -854,11 +1256,23 @@
   },
   "layout-header": {
     "codepoint": "e9d5",
-    "path": "M3 3h18v18H3ZM3 9h18"
+    "path": "M3 3h18v18H3ZM3 9h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "layout-footer": {
     "codepoint": "e9d6",
-    "path": "M3 3h18v18H3ZM3 15h18"
+    "path": "M3 3h18v18H3ZM3 15h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "kanban": {
     "codepoint": "e9d7",
@@ -874,7 +1288,13 @@
   },
   "attachment": {
     "codepoint": "e9da",
-    "path": "M8 12l8-8a4 4 0 0 1 6 6L11 21a6 6 0 0 1-8-8L14 2M6 15l10-10"
+    "path": "M8 12l8-8a4 4 0 0 1 6 6L11 21a6 6 0 0 1-8-8L14 2M6 15l10-10",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "lightning": {
     "codepoint": "e9db",
@@ -962,7 +1382,13 @@
   },
   "copy": {
     "codepoint": "e9f0",
-    "path": "M8 8h13v13H8ZM16 5V2H2v14h3"
+    "path": "M8 8h13v13H8ZM16 5V2H2v14h3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "settings-sliders": {
     "codepoint": "e9f1",
@@ -986,43 +1412,103 @@
   },
   "heading-1": {
     "codepoint": "e9f6",
-    "path": "M3 5v14M12 5v14M3 12h9m5-5 3-2v14m-3 0h6"
+    "path": "M3 5v14M12 5v14M3 12h9m5-5 3-2v14m-3 0h6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "heading-2": {
     "codepoint": "e9f7",
-    "path": "M2 5v14M10 5v14M2 12h8m5-4c0-4 7-4 7 0 0 3-7 6-7 11h7"
+    "path": "M2 5v14M10 5v14M2 12h8m5-4c0-4 7-4 7 0 0 3-7 6-7 11h7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "heading-3": {
     "codepoint": "e9f8",
-    "path": "M2 5v14M10 5v14M2 12h8m5-6c5-3 9 2 3 5 6 1 4 8-2 6"
+    "path": "M2 5v14M10 5v14M2 12h8m5-6c5-3 9 2 3 5 6 1 4 8-2 6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography"
+    ]
   },
   "text-wrap": {
     "codepoint": "e9f9",
-    "path": "M3 5h18M3 10h14a4 4 0 0 1 0 8h-5m3-3-3 3 3 3M3 15h4"
+    "path": "M3 5h18M3 10h14a4 4 0 0 1 0 8h-5m3-3-3 3 3 3M3 15h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "nonbreaking-space": {
     "codepoint": "e9fa",
-    "path": "M4 7v8h16V7M9 12l3 3 3-3"
+    "path": "M4 7v8h16V7M9 12l3 3 3-3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "list-nested": {
     "codepoint": "e9fb",
-    "path": "M3 5h2m3 0h13M6 12h2m3 0h10M9 19h2m3 0h7"
+    "path": "M3 5h2m3 0h13M6 12h2m3 0h10M9 19h2m3 0h7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "list-task": {
     "codepoint": "e9fc",
-    "path": "M3 4h4v4H3Zm8 2h10M3 12l2 2 3-4m3 3h10M3 18h4v4H3Zm8 2h10"
+    "path": "M3 4h4v4H3Zm8 2h10M3 12l2 2 3-4m3 3h10M3 18h4v4H3Zm8 2h10",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs"
+    ]
   },
   "table-cell": {
     "codepoint": "e9fd",
-    "path": "M3 3h18v18H3Zm0 6h18M3 15h18M9 3v18m6-18v18M10 10h4v4h-4Z"
+    "path": "M3 3h18v18H3Zm0 6h18M3 15h18M9 3v18m6-18v18M10 10h4v4h-4Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "table-split": {
     "codepoint": "e9fe",
-    "path": "M3 4h18v16H3Zm9 0v16M5 12h4m-2-2-2 2 2 2m8-2h4m-2-2 2 2-2 2"
+    "path": "M3 4h18v16H3Zm9 0v16M5 12h4m-2-2-2 2 2 2m8-2h4m-2-2 2 2-2 2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables"
+    ]
   },
   "code-block": {
     "codepoint": "e9ff",
-    "path": "M3 3h18v18H3Zm6 5-4 4 4 4m6-8 4 4-4 4"
+    "path": "M3 3h18v18H3Zm6 5-4 4 4 4m6-8 4 4-4 4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "braces": {
     "codepoint": "ea00",
@@ -1074,7 +1560,13 @@
   },
   "signature": {
     "codepoint": "ea0c",
-    "path": "M3 17c7-15 11-14 7-5-3 7-6 8-6 5 0-3 5-4 8-3 3 2 5 2 9-1M3 21h18"
+    "path": "M3 17c7-15 11-14 7-5-3 7-6 8-6 5 0-3 5-4 8-3 3 2 5 2 9-1M3 21h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "cursor-text": {
     "codepoint": "ea0d",
@@ -1086,11 +1578,23 @@
   },
   "link-add": {
     "codepoint": "ea0f",
-    "path": "M10 15 9 16a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m1 3 1-1a4 4 0 0 1 6 6l-1 1M8 12l6-6m0 12h8m-4-4v8"
+    "path": "M10 15 9 16a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m1 3 1-1a4 4 0 0 1 6 6l-1 1M8 12l6-6m0 12h8m-4-4v8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "link-check": {
     "codepoint": "ea10",
-    "path": "M10 15 9 16a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m1 3 1-1a4 4 0 0 1 6 6M8 12l6-6m-1 12 3 3 6-7"
+    "path": "M10 15 9 16a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m1 3 1-1a4 4 0 0 1 6 6M8 12l6-6m-1 12 3 3 6-7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "user-check": {
     "codepoint": "ea11",
@@ -1102,15 +1606,33 @@
   },
   "message-add": {
     "codepoint": "ea13",
-    "path": "M21 12V3H3v15h4v3l5-3m2-2h8m-4-4v8"
+    "path": "M21 12V3H3v15h4v3l5-3m2-2h8m-4-4v8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "message-check": {
     "codepoint": "ea14",
-    "path": "M21 12V3H3v15h4v3l5-3m2-2 3 3 5-6"
+    "path": "M21 12V3H3v15h4v3l5-3m2-2 3 3 5-6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "message-thread": {
     "codepoint": "ea15",
-    "path": "M16 3H2v11h4v3l4-3h6ZM19 8h3v13l-4-3h-6"
+    "path": "M16 3H2v11h4v3l4-3h6ZM19 8h3v13l-4-3h-6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "mail-open": {
     "codepoint": "ea16",
@@ -1298,7 +1820,13 @@
   },
   "music": {
     "codepoint": "ea44",
-    "path": "M9 18V5l12-3v14M9 8l12-3M9 18c0 4-7 4-7 1 0-3 7-4 7-1Zm12-2c0 4-7 4-7 1 0-3 7-4 7-1Z"
+    "path": "M9 18V5l12-3v14M9 8l12-3M9 18c0 4-7 4-7 1 0-3 7-4 7-1Zm12-2c0 4-7 4-7 1 0-3 7-4 7-1Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
+    ]
   },
   "video-off": {
     "codepoint": "ea45",
@@ -1374,7 +1902,13 @@
   },
   "focus": {
     "codepoint": "ea57",
-    "path": "M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+    "path": "M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
+    ]
   },
   "currency-dollar": {
     "codepoint": "ea58",
@@ -1537,7 +2071,11 @@
       "rotate",
       "rotate 90",
       "clockwise",
-      "turn"
+      "turn",
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
     ]
   },
   "flip-horizontal": {
@@ -1547,7 +2085,11 @@
       "flip",
       "mirror",
       "reflect",
-      "horizontal"
+      "horizontal",
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
     ]
   },
   "flip-vertical": {
@@ -1557,7 +2099,11 @@
       "flip",
       "mirror",
       "reflect",
-      "vertical"
+      "vertical",
+      "rte",
+      "rich-text",
+      "editor",
+      "images"
     ]
   },
   "bounding-box": {
@@ -1726,7 +2272,11 @@
     "keywords": [
       "comment",
       "conversation",
-      "feedback"
+      "feedback",
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
     ]
   },
   "annotation": {
@@ -1753,7 +2303,11 @@
     "keywords": [
       "media",
       "video",
-      "play"
+      "play",
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts"
     ]
   },
   "design": {
@@ -1901,7 +2455,11 @@
       "respond",
       "email",
       "mail",
-      "arrow-bend-up-left"
+      "arrow-bend-up-left",
+      "rte",
+      "rich-text",
+      "editor",
+      "review"
     ]
   },
   "reply-all": {
@@ -2877,6 +3435,941 @@
       "fb2",
       "cbz",
       "cbr"
+    ]
+  },
+  "heading-4": {
+    "codepoint": "ead8",
+    "path": "M3 5v14M10 5v14M3 12h7M16 5l-2 9h8M20 5v14",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "h4",
+      "heading",
+      "level-4"
+    ]
+  },
+  "heading-5": {
+    "codepoint": "ead9",
+    "path": "M3 5v14M10 5v14M3 12h7M21 5h-7v7c7-3 10 7 2 7h-2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "h5",
+      "heading",
+      "level-5"
+    ]
+  },
+  "heading-6": {
+    "codepoint": "eada",
+    "path": "M3 5v14M10 5v14M3 12h7M21 5c-8-3-9 14-3 14 6 0 5-10-3-7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "h6",
+      "heading",
+      "level-6"
+    ]
+  },
+  "font-size-increase": {
+    "codepoint": "eadb",
+    "path": "M2 19l6-14 6 14M4.5 14h7M17 8h5M19.5 5.5v5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "grow-font",
+      "larger",
+      "text-size"
+    ]
+  },
+  "font-size-decrease": {
+    "codepoint": "eadc",
+    "path": "M2 19l6-14 6 14M4.5 14h7M17 8h5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "shrink-font",
+      "smaller",
+      "text-size"
+    ]
+  },
+  "text-uppercase": {
+    "codepoint": "eadd",
+    "path": "M2 19l5-14 5 14M4 14h6M16 5v14h3a3 3 0 0 0 0-7h-3m0-7h3a3.5 3.5 0 0 1 0 7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "upper-case",
+      "all-caps",
+      "capital-letters"
+    ]
+  },
+  "text-lowercase": {
+    "codepoint": "eade",
+    "path": "M11 14a4 5 0 1 1-8 0 4 5 0 0 1 8 0ZM11 9v10M16 4v15m0-8c6-6 9 8 3 8h-3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "lower-case",
+      "small-letters"
+    ]
+  },
+  "text-title-case": {
+    "codepoint": "eadf",
+    "path": "M2 19l5-14 5 14M4 14h6M21 14a3 5 0 1 1-6 0 3 5 0 0 1 6 0ZM21 9v10",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "title-case",
+      "capitalize",
+      "change-case"
+    ]
+  },
+  "text-small-caps": {
+    "codepoint": "eae0",
+    "path": "M2 19l5-14 5 14M4 14h6M15 19l3-9 3 9M16 16h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "small-caps",
+      "typography"
+    ]
+  },
+  "text-style": {
+    "codepoint": "eae1",
+    "path": "M3 18l5-13 5 13M5 13h6M17 4h4M17 10h4M17 16h4M3 22h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "styles",
+      "style-preset",
+      "format"
+    ]
+  },
+  "text-overline": {
+    "codepoint": "eae2",
+    "path": "M5 3h14M5 8h14M12 8v13M8 21h8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "overline",
+      "decoration"
+    ]
+  },
+  "text-double-underline": {
+    "codepoint": "eae3",
+    "path": "M6 3v6a6 6 0 0 0 12 0V3M4 18h16M4 22h16",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "typography",
+      "double-underline",
+      "decoration"
+    ]
+  },
+  "format-painter": {
+    "codepoint": "eae4",
+    "path": "M3 3h14v6H3ZM17 6h4v7h-9v3M10 16h4v6h-4Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "copy-formatting",
+      "paint-format",
+      "format-brush"
+    ]
+  },
+  "paste-plain-text": {
+    "codepoint": "eae5",
+    "path": "M8 5H4v17h16V5h-4M8 2h8v6H8ZM8 11h8M12 11v7M10 18h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "paste-text",
+      "unformatted",
+      "plain-text"
+    ]
+  },
+  "paste-match-style": {
+    "codepoint": "eae6",
+    "path": "M8 5H4v17h8M8 2h8v6H8ZM16 5h4v5M14 21l4-10 4 10M16 17h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "match-formatting",
+      "merge-formatting"
+    ]
+  },
+  "paste-from-word": {
+    "codepoint": "eae7",
+    "path": "M8 5H4v17h16V5h-4M8 2h8v6H8ZM7 11l2 7 3-6 3 6 2-7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "word",
+      "office",
+      "paste-word"
+    ]
+  },
+  "select-all": {
+    "codepoint": "eae8",
+    "path": "M7 3H3v4M17 3h4v4M3 17v4h4M21 17v4h-4M11 3h2M11 21h2M3 11v2M21 11v2M7 7h10v10H7Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "selection",
+      "select-document"
+    ]
+  },
+  "text-direction-ltr": {
+    "codepoint": "eae9",
+    "path": "M12 3H8a4 4 0 0 0 0 8h4M12 3v12M17 3v12M8 3h12M3 20h18M18.5 17.5l2.5 2.5-2.5 2.5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "ltr",
+      "left-to-right",
+      "bidi"
+    ]
+  },
+  "text-direction-rtl": {
+    "codepoint": "eaea",
+    "path": "M12 3H8a4 4 0 0 0 0 8h4M12 3v12M17 3v12M8 3h12M21 20H3M5.5 17.5l-2.5 2.5 2.5 2.5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "rtl",
+      "right-to-left",
+      "bidi"
+    ]
+  },
+  "paragraph-spacing-before": {
+    "codepoint": "eaeb",
+    "path": "M3 12h18M3 17h18M3 22h12M12 2v6M9 5l3 3 3-3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "space-before",
+      "spacing-before",
+      "paragraph"
+    ]
+  },
+  "paragraph-spacing-after": {
+    "codepoint": "eaec",
+    "path": "M3 2h18M3 7h18M3 12h12M12 22v-6M9 19l3-3 3 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "space-after",
+      "spacing-after",
+      "paragraph"
+    ]
+  },
+  "paragraph-keep-together": {
+    "codepoint": "eaed",
+    "path": "M9 4h12M9 9h12M9 14h12M9 19h8M5 4H2v15h3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "keep-lines-together",
+      "pagination",
+      "paragraph"
+    ]
+  },
+  "paragraph-keep-next": {
+    "codepoint": "eaee",
+    "path": "M3 3h12M3 7h9M3 15h12M3 19h9M19 5v12M16 14l3 3 3-3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "keep-with-next",
+      "pagination",
+      "paragraph"
+    ]
+  },
+  "line-break": {
+    "codepoint": "eaef",
+    "path": "M3 4h18M3 9h10M21 9v5a3 3 0 0 1-3 3H8M12 13l-4 4 4 4M3 17h1",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "soft-break",
+      "return",
+      "newline"
+    ]
+  },
+  "column-break": {
+    "codepoint": "eaf0",
+    "path": "M3 3h6v18H3ZM15 3h6v18h-6M9 12h6M12 9l3 3-3 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "column",
+      "break"
+    ]
+  },
+  "section-break": {
+    "codepoint": "eaf1",
+    "path": "M4 8V3h16v5M4 16v5h16v-5M2 12h3M8 12h3M14 12h3M20 12h2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "section",
+      "break"
+    ]
+  },
+  "list-restart": {
+    "codepoint": "eaf2",
+    "path": "M12 4h9M12 9h9M12 14h9M12 19h9M3 3l3-1v8M3 10h6M8 18a3 3 0 1 1-3-3M2 12v3h3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "restart-numbering",
+      "restart-list",
+      "numbered-list"
+    ]
+  },
+  "list-continue": {
+    "codepoint": "eaf3",
+    "path": "M12 4h9M12 9h9M12 14h9M12 19h9M3 3l3-1v8M3 10h6M5 14v8M2 19l3 3 3-3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "editing-and-paragraphs",
+      "continue-numbering",
+      "continue-list",
+      "numbered-list"
+    ]
+  },
+  "table-add": {
+    "codepoint": "eaf4",
+    "path": "M21 10V3H3v18h7M3 9h18M9 3v18M14 17h8M18 13v8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "insert-table",
+      "new-table"
+    ]
+  },
+  "table-delete": {
+    "codepoint": "eaf5",
+    "path": "M21 10V3H3v18h7M3 9h18M9 3v18M14 14l7 7M21 14l-7 7",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "remove-table",
+      "delete-table"
+    ]
+  },
+  "table-header-row": {
+    "codepoint": "eaf6",
+    "path": "M3 3h18v18H3ZM3 10h18M3 16h18M12 10v11M6 6.5h.01M12 6.5h.01M18 6.5h.01",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "header-row",
+      "thead"
+    ]
+  },
+  "table-header-column": {
+    "codepoint": "eaf7",
+    "path": "M3.0 3.0V21.0H21.0V3.0H3.0ZM10.0 3.0V21.0M16.0 3.0V21.0M10.0 12.0H21.0M6.5 6.0V6.01M6.5 12.0V12.01M6.5 18.0V18.01",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "header-column",
+      "row-header"
+    ]
+  },
+  "table-row-above": {
+    "codepoint": "eaf8",
+    "path": "M3 11h18v10H3ZM3 16h18M12 11v10M12 2v6M9 5h6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "insert-row-above",
+      "row-before"
+    ]
+  },
+  "table-row-below": {
+    "codepoint": "eaf9",
+    "path": "M3.0 13.0H21.0V3.0H3.0V13.0ZM3.0 8.0H21.0M12.0 13.0V3.0M12.0 22.0V16.0M9.0 19.0H15.0",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "insert-row-below",
+      "row-after"
+    ]
+  },
+  "table-column-before": {
+    "codepoint": "eafa",
+    "path": "M11.0 3.0V21.0H21.0V3.0H11.0ZM16.0 3.0V21.0M11.0 12.0H21.0M2.0 12.0H8.0M5.0 9.0V15.0",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "insert-column-left",
+      "column-before"
+    ]
+  },
+  "table-column-after": {
+    "codepoint": "eafb",
+    "path": "M13.0 3.0V21.0H3.0V3.0H13.0ZM8.0 3.0V21.0M13.0 12.0H3.0M22.0 12.0H16.0M19.0 9.0V15.0",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "insert-column-right",
+      "column-after"
+    ]
+  },
+  "table-cell-background": {
+    "codepoint": "eafc",
+    "path": "M3 3h18v18H3ZM3 12h18M12 3v18M4 16l4-3M4 21l8-8M8 21l4-4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "cell-fill",
+      "cell-color",
+      "shading",
+      "background"
+    ]
+  },
+  "table-borders-all": {
+    "codepoint": "eafd",
+    "path": "M3 3h18v18H3ZM3 12h18M12 3v18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "all-borders",
+      "borders"
+    ]
+  },
+  "table-borders-none": {
+    "codepoint": "eafe",
+    "path": "M3 3h.01M12 3h.01M21 3h.01M3 12h.01M12 12h.01M21 12h.01M3 21h.01M12 21h.01M21 21h.01",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "no-borders",
+      "remove-borders"
+    ]
+  },
+  "table-borders-outer": {
+    "codepoint": "eaff",
+    "path": "M3 3h18v18H3ZM12 12h.01",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "outside-borders",
+      "outline-border"
+    ]
+  },
+  "table-borders-inner": {
+    "codepoint": "eb00",
+    "path": "M3 3h.01M12 3h.01M21 3h.01M3 12h.01M12 12h.01M21 12h.01M3 21h.01M12 21h.01M21 21h.01M12 3v18M3 12h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "inside-borders",
+      "inner-borders"
+    ]
+  },
+  "table-border-top": {
+    "codepoint": "eb01",
+    "path": "M3 3h.01M12 3h.01M21 3h.01M3 12h.01M12 12h.01M21 12h.01M3 21h.01M12 21h.01M21 21h.01M3 3h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "top-border",
+      "cell-border"
+    ]
+  },
+  "table-border-bottom": {
+    "codepoint": "eb02",
+    "path": "M3 3h.01M12 3h.01M21 3h.01M3 12h.01M12 12h.01M21 12h.01M3 21h.01M12 21h.01M21 21h.01M3 21h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "bottom-border",
+      "cell-border"
+    ]
+  },
+  "table-border-left": {
+    "codepoint": "eb03",
+    "path": "M3 3h.01M12 3h.01M21 3h.01M3 12h.01M12 12h.01M21 12h.01M3 21h.01M12 21h.01M21 21h.01M3 3v18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "left-border",
+      "cell-border"
+    ]
+  },
+  "table-border-right": {
+    "codepoint": "eb04",
+    "path": "M3 3h.01M12 3h.01M21 3h.01M3 12h.01M12 12h.01M21 12h.01M3 21h.01M12 21h.01M21 21h.01M21 3v18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "right-border",
+      "cell-border"
+    ]
+  },
+  "table-distribute-rows": {
+    "codepoint": "eb05",
+    "path": "M3 3h12M3 9h12M3 15h12M3 21h12M20 3v18M18 5l2-2 2 2M18 19l2 2 2-2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "distribute-rows",
+      "equal-row-height"
+    ]
+  },
+  "table-distribute-columns": {
+    "codepoint": "eb06",
+    "path": "M3.0 3.0V15.0M9.0 3.0V15.0M15.0 3.0V15.0M21.0 3.0V15.0M3.0 20.0H21.0M5.0 18.0 3.0 20.0 5.0 22.0M19.0 18.0 21.0 20.0 19.0 22.0",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "tables",
+      "distribute-columns",
+      "equal-column-width"
+    ]
+  },
+  "image-wrap-left": {
+    "codepoint": "eb07",
+    "path": "M3 3h9v10H3ZM3 11l3-4 6 5M16 4h5M16 9h5M3 17h18M3 22h18",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images",
+      "image-left",
+      "text-right",
+      "float-left",
+      "wrap"
+    ]
+  },
+  "image-wrap-right": {
+    "codepoint": "eb08",
+    "path": "M21.0 3.0H12.0V13.0H21.0V3.0ZM21.0 11.0 18.0 7.0 12.0 12.0M8.0 4.0H3.0M8.0 9.0H3.0M21.0 17.0H3.0M21.0 22.0H3.0",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images",
+      "image-right",
+      "text-left",
+      "float-right",
+      "wrap"
+    ]
+  },
+  "image-inline": {
+    "codepoint": "eb09",
+    "path": "M3 3h18M3 21h18M3 15h2M19 15h2M8 8h8v8H8ZM8 15l3-4 5 5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images",
+      "inline-image",
+      "in-line",
+      "placement"
+    ]
+  },
+  "image-block": {
+    "codepoint": "eb0a",
+    "path": "M3 3h18M3 21h18M5 7h14v10H5ZM5 16l5-5 4 4 2-2 3 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images",
+      "block-image",
+      "own-line",
+      "placement"
+    ]
+  },
+  "image-caption": {
+    "codepoint": "eb0b",
+    "path": "M3 3h18v12H3ZM3 13l6-6 4 4 3-3 5 5M5 20h14",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images",
+      "caption",
+      "figure",
+      "description"
+    ]
+  },
+  "image-alt-text": {
+    "codepoint": "eb0c",
+    "path": "M3 3h18v11M3 3v14h7M3 14l5-5 3 3M12 21l4-10 4 10M14 17h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images",
+      "alt",
+      "alternative-text",
+      "accessibility"
+    ]
+  },
+  "image-replace": {
+    "codepoint": "eb0d",
+    "path": "M3 3h18v7M3 3v16h6M3 16l5-5 3 3M14 14h8M19.5 11.5l2.5 2.5-2.5 2.5M22 20h-8M16.5 17.5L14 20l2.5 2.5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "images",
+      "replace-image",
+      "swap-image"
+    ]
+  },
+  "emoji": {
+    "codepoint": "eb0e",
+    "path": "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM8 9h.01M16 9h.01M7 14c2 5 8 5 10 0",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "smiley",
+      "emoticon"
+    ]
+  },
+  "mention": {
+    "codepoint": "eb0f",
+    "path": "M16 8v7c0 3 6 3 6-3a10 10 0 1 0-4 8M16 12a4 4 0 1 0-8 0 4 4 0 1 0 8 0",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "at",
+      "@",
+      "mention-user"
+    ]
+  },
+  "equation": {
+    "codepoint": "eb10",
+    "path": "M3 13l3 3 4-12h11M14 10l7 10M21 10l-7 10",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "math",
+      "formula",
+      "latex",
+      "mathml"
+    ]
+  },
+  "footnote": {
+    "codepoint": "eb11",
+    "path": "M4 8h11M4 13h16M4 18h8M4 22h8M18 3l2-1v6M18 8h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "foot-note",
+      "reference",
+      "note"
+    ]
+  },
+  "endnote": {
+    "codepoint": "eb12",
+    "path": "M4 3h16M4 8h16M4 13h11M4 20h8M18 16l2-1v7M18 22h4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "end-note",
+      "reference",
+      "note"
+    ]
+  },
+  "table-of-contents": {
+    "codepoint": "eb13",
+    "path": "M3 4h10M3 10h13M3 16h10M3 22h13M18 4h3M19 10h2M18 16h3M19 22h2",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "toc",
+      "document-outline",
+      "contents"
+    ]
+  },
+  "page-number": {
+    "codepoint": "eb14",
+    "path": "M5 2h14v20H5ZM8 6h8M8 10h8M10 16l2-1v5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "pagination",
+      "page-numbers"
+    ]
+  },
+  "citation": {
+    "codepoint": "eb15",
+    "path": "M3 3h18v18H3ZM6 8h4v5H6Zm0 5v3l3-3M14 8h4v5h-4Zm0 5v3l3-3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "cite",
+      "bibliography",
+      "reference"
+    ]
+  },
+  "embed": {
+    "codepoint": "eb16",
+    "path": "M3 3h18v18H3ZM9 8l-4 4 4 4M15 8l4 4-4 4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "iframe",
+      "embedded-content",
+      "html",
+      "video-embed"
+    ]
+  },
+  "callout": {
+    "codepoint": "eb17",
+    "path": "M3 3h18v18H3ZM7 7v6M7 17h.01M12 8h5M12 13h5M12 18h5",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "admonition",
+      "notice",
+      "info-block"
+    ]
+  },
+  "link-edit": {
+    "codepoint": "eb18",
+    "path": "M11 16l-2 2a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0M9 12l3-3M14 21v-4l5-5 3 3-5 6h-3Z",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "inserts",
+      "edit-link",
+      "url",
+      "hyperlink"
+    ]
+  },
+  "track-changes": {
+    "codepoint": "eb19",
+    "path": "M3 4h13M3 10h9M3 16h5M11 21v-4L19 9l3 3-8 9h-3ZM17 11l3 3",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "suggesting",
+      "suggestions",
+      "redline",
+      "revision"
+    ]
+  },
+  "change-accept": {
+    "codepoint": "eb1a",
+    "path": "M3 4h15M3 10h9M3 16h5M12 17l3 3 7-8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "accept-change",
+      "approve-revision"
+    ]
+  },
+  "change-reject": {
+    "codepoint": "eb1b",
+    "path": "M3 4h15M3 10h9M3 16h5M13 13l8 8M21 13l-8 8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "reject-change",
+      "decline-revision"
+    ]
+  },
+  "changes-accept-all": {
+    "codepoint": "eb1c",
+    "path": "M3 3h16M3 8h11M2 17l4 4 7-9M11 17l4 4 7-9",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "accept-all",
+      "approve-all",
+      "revisions"
+    ]
+  },
+  "changes-reject-all": {
+    "codepoint": "eb1d",
+    "path": "M3 3h16M3 8h11M3 15l6 6M9 15l-6 6M15 15l6 6M21 15l-6 6",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "reject-all",
+      "decline-all",
+      "revisions"
+    ]
+  },
+  "change-previous": {
+    "codepoint": "eb1e",
+    "path": "M3 3h18M3 8h12M3 13h5M21 18H11M15 14l-4 4 4 4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "previous-change",
+      "previous-revision"
+    ]
+  },
+  "change-next": {
+    "codepoint": "eb1f",
+    "path": "M3 3h18M3 8h12M3 13h5M11 18h10M17 14l4 4-4 4",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "next-change",
+      "next-revision"
+    ]
+  },
+  "word-count": {
+    "codepoint": "eb20",
+    "path": "M3 3h18M3 8h13M3 14l2-1v8M2 21h6M12 15c0-4 8-4 8 0 0 2-8 3-8 6h9",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "count-words",
+      "character-count",
+      "statistics"
+    ]
+  },
+  "grammar-check": {
+    "codepoint": "eb21",
+    "path": "M3 3h18M3 8h12M3 13h7M3 18l2-2 2 2 2-2M13 17l3 3 6-8",
+    "keywords": [
+      "rte",
+      "rich-text",
+      "editor",
+      "review",
+      "grammar",
+      "proofread",
+      "proofreading"
     ]
   }
 }

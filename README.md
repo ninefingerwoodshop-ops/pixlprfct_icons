@@ -1,6 +1,6 @@
 # PixlPrfct Icons
 
-Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 472 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
+Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 546 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
 
 The `pixlprfct` brand symbol is Unbound: a flowing, open ribbon suggesting a P. It uses a consistent filled silhouette across all three font weights. Use `pxi-pixlprfct`; the gallery favicon uses the same symbol.
 
@@ -79,6 +79,32 @@ Version 0.6.0 added 55 file icons. Version 0.7.0 adds eight more file families f
 | `file-shortcut` | `.lnk`, `.url`, `.webloc`, `.desktop` |
 | `file-ebook` | `.epub`, `.mobi`, `.azw`, `.azw3`, `.kfx`, `.fb2`, `.cbz`, `.cbr` |
 | `file-unknown` | Unknown file |
+
+## Rich-text editors
+
+Version 0.8.0 adds 74 original RTE symbols and tags the existing RTE set for discovery. Search `rte` or `rich text` in the gallery or editor library to find all 169 tagged icons. These are reusable icon assets; adding them does not implement editing commands in consuming applications. Each name below works as `pxi-<name>` in the font or as the corresponding SVG export, in Light, Regular, and Bold.
+
+| Family | New icons |
+|---|---|
+| Typography | `heading-4`, `heading-5`, `heading-6`, `font-size-increase`, `font-size-decrease`, `text-uppercase`, `text-lowercase`, `text-title-case`, `text-small-caps`, `text-style`, `text-overline`, `text-double-underline` |
+| Editing and paragraphs | `format-painter`, `paste-plain-text`, `paste-match-style`, `paste-from-word`, `select-all`, `text-direction-ltr`, `text-direction-rtl`, `paragraph-spacing-before`, `paragraph-spacing-after`, `paragraph-keep-together`, `paragraph-keep-next`, `line-break`, `column-break`, `section-break`, `list-restart`, `list-continue` |
+| Tables | `table-add`, `table-delete`, `table-header-row`, `table-header-column`, `table-row-above`, `table-row-below`, `table-column-before`, `table-column-after`, `table-cell-background`, `table-borders-all`, `table-borders-none`, `table-borders-outer`, `table-borders-inner`, `table-border-top`, `table-border-bottom`, `table-border-left`, `table-border-right`, `table-distribute-rows`, `table-distribute-columns` |
+| Images | `image-wrap-left`, `image-wrap-right`, `image-inline`, `image-block`, `image-caption`, `image-alt-text`, `image-replace` |
+| Inserts | `emoji`, `mention`, `equation`, `footnote`, `endnote`, `table-of-contents`, `page-number`, `citation`, `embed`, `callout`, `link-edit` |
+| Review | `track-changes`, `change-accept`, `change-reject`, `changes-accept-all`, `changes-reject-all`, `change-previous`, `change-next`, `word-count`, `grammar-check` |
+
+The following existing symbols complete the common RTE controls:
+
+| Family | Existing icons |
+|---|---|
+| Typography | `text`, `text-bold`, `text-italic`, `text-underline`, `text-strikethrough`, `text-heading`, `heading-1`, `heading-2`, `heading-3`, `text-paragraph`, `text-highlight`, `text-color`, `text-clear-format`, `text-subscript`, `text-superscript`, `text-line-height`, `text-letter-spacing` |
+| Editing and paragraphs | `undo`, `redo`, `cut`, `copy`, `paste`, `clipboard`, `text-align-left`, `text-align-center`, `text-align-right`, `text-align-justify`, `text-indent`, `text-outdent`, `list-bulleted`, `list-numbered`, `list-check`, `list-nested`, `list-task`, `text-wrap`, `nonbreaking-space`, `horizontal-rule`, `page-break`, `find-replace`, `search` |
+| Tables | `table`, `table-row-add`, `table-column-add`, `table-row-remove`, `table-column-remove`, `table-cell`, `table-merge`, `table-split`, `align-top`, `align-middle`, `align-bottom` |
+| Images | `image`, `image-add`, `crop`, `resize`, `aspect-lock`, `flip-horizontal`, `flip-vertical`, `rotate-right` |
+| Inserts | `link`, `unlink`, `link-add`, `link-check`, `anchor`, `bookmark`, `attachment`, `text-quote`, `text-code`, `code-block`, `special-character`, `video`, `media`, `music`, `calendar`, `signature`, `layout-columns`, `layout-header`, `layout-footer` |
+| Review | `comment`, `message-add`, `message-check`, `message-thread`, `reply`, `history`, `spellcheck`, `language`, `accessibility`, `eye`, `eye-off`, `focus`, `fullscreen`, `print`, `save`, `download`, `upload` |
+
+`image-wrap-left` places the image on the left with text on its right; `image-wrap-right` does the reverse. `table-column-before` and `table-column-after` depict insertion to the left and right, respectively. Use `text-paragraph` for the pilcrow/show-formatting-marks control. Generic actions such as close, confirm, settings, and more remain available in the wider library.
 
 ## Use the font
 
