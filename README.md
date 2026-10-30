@@ -1,6 +1,6 @@
 # PixlPrfct Icons
 
-Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 546 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
+Free, open-source interface icons in **Light, Regular, and Bold**, licensed under MIT. The library contains 679 icons for rich-text editing, forms, navigation, files, media, commerce, charts, developer tools, business, field work, and the PixlPrfct editor. All original icon names and codepoints remain stable.
 
 The `pixlprfct` brand symbol is Unbound: a flowing, open ribbon suggesting a P. It uses a consistent filled silhouette across all three font weights. Use `pxi-pixlprfct`; the gallery favicon uses the same symbol.
 
@@ -144,3 +144,19 @@ Use a branch and pull request. Keep icon names stable, use rounded stroke caps/j
 ## License
 
 MIT — free for personal and commercial use, modification, and redistribution. Keep the license with redistributed copies.
+
+## Territory Track coverage (0.9.0)
+
+The package includes original PixlPrfct counterparts for Territory Track's named web icons, selectable avatars, dashboard and assistant icon registries, iOS app, widgets, and App Shortcuts. `territory-track.json` records each source name, its PixlPrfct target, and source locations. Search by the original web or SF Symbol name in the gallery or editor. All targets are available in Light, Regular, and Bold.
+
+This is semantic coverage, not a pixel-identical copy of Phosphor or SF Symbols. SF `.fill` variants resolve to the same symbol in the selected PixlPrfct weight. Existing names, paths and codepoints are preserved. Territory Track's application renderers are not changed by installing this package. Arbitrary user-supplied imagery and unnamed illustrations are outside this icon inventory.
+
+The brand symbols are monochrome adaptations identifying the corresponding services. Their trademarks belong to their respective owners; inclusion does not imply affiliation or endorsement. No Phosphor or Apple SF Symbols artwork is redistributed.
+
+To check the current application sources from the PixlPrfct repository:
+
+```sh
+node scripts/territory-icon-inventory.mjs /path/to/TerritoryIQ /path/to/TerritoryTrackIOS --check
+```
+
+New source references fail this check until they receive an explicit mapping. The icon-package tests verify every recorded target, searchable alias, CSS class and generated font glyph.

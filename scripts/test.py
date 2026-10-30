@@ -25,3 +25,25 @@ before={p:hashlib.sha256(p.read_bytes()).digest() for p in outputs}
 subprocess.run([sys.executable,str(root/"scripts/build.py")],check=True)
 assert before=={p:hashlib.sha256(p.read_bytes()).digest() for p in outputs}, "Font rebuild changed glyph outlines"
 print("Verified byte-identical font and CSS rebuilds.")
+
+# The recorded Territory Track inventory must resolve without generic fallbacks.
+coverage=json.loads((root/'territory-track.json').read_text())
+seen=set()
+for ref in coverage['references']:
+    key=(ref['group'],ref['name'])
+    assert key not in seen, f"Duplicate mapping {key}"
+    seen.add(key)
+    assert ref['target'] in icons, f"Missing icon for {key}"
+    assert ref['name'] in icons[ref['target']].get('keywords',[]), f"Unsearchable {key}"
+    assert ref['uses'], f"No source evidence for {key}"
+assert {r['group'] for r in coverage['references']} == {'web','lucide','avatar','custom','ios'}
+print(f"Validated {len(seen)} Territory Track mappings without fallback icons.")
+
+from fontTools.pens.boundsPen import BoundsPen
+from fontTools.svgLib.path import parse_path
+for name,data in icons.items():
+    if not data.get('introducedIn'): continue
+    pen=BoundsPen(None)
+    parse_path(data['path'],pen)
+    assert pen.bounds and min(pen.bounds)>=0 and max(pen.bounds)<=24, (name,pen.bounds)
+print("Verified introduced icon paths remain inside their 24×24 viewboxes.")
