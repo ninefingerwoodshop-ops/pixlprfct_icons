@@ -1,6 +1,6 @@
 {
   "name": "pixlprfct-icons",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "PixlPrfct icon font in Light, Regular and Bold weights",
   "license": "MIT",
   "type": "module",
@@ -9,12 +9,14 @@
     "css",
     "icons.json",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "territory-track.json"
   ],
   "exports": {
     "./css/icons.css": "./css/icons.css",
     "./icons.json": "./icons.json",
-    "./fonts/*": "./fonts/*"
+    "./fonts/*": "./fonts/*",
+    "./territory-track.json": "./territory-track.json"
   },
   "sideEffects": [
     "**/*.css"
